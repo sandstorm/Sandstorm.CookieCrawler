@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "chrome-cookies-secure": "^1.2.0",
+    "puppeteer": "^2.0.0"
+  }
+}
