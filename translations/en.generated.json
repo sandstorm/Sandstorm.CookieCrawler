@@ -1,0 +1,3482 @@
+{
+  "cookiePreferences": {
+    "platform": "Google Tag Manager",
+    "category": "Functional",
+    "description": "Registers cookie preferences of a user"
+  },
+  "CookieConsent [x4]": {
+    "platform": "Cookiebot",
+    "category": "Functional",
+    "description": "Registers cookie preferences of a user"
+  },
+  "CookieConsentBulkTicket": {
+    "platform": "Cookiebot",
+    "category": "Functional",
+    "description": "Enables sharing cookie preferences across domains / websites"
+  },
+  "userlang [x2]": {
+    "platform": "Cookiebot",
+    "category": "Functional",
+    "description": "Saves language preferences of user for a website"
+  },
+  "cookieconsent_variant": {
+    "platform": "Maxlead",
+    "category": "Functional",
+    "description": "Stores the variant of shown cookie banner"
+  },
+  "cookieconsent_system": {
+    "platform": "Maxlead",
+    "category": "Functional",
+    "description": "Cookie consent system cookie for saving user's cookie opt-in/out choices."
+  },
+  "cookieconsent_level": {
+    "platform": "Maxlead",
+    "category": "Functional",
+    "description": "Cookie consent system cookie for storing the level of cookie consent."
+  },
+  "cookieconsent_seen": {
+    "platform": "Maxlead",
+    "category": "Functional",
+    "description": "Used to support the GDPR / AVG compliant cookie consent system"
+  },
+  "CookieConsent": {
+    "platform": "Cookiebot",
+    "category": "Functional",
+    "description": "Stores the user's cookie consent state for the current domain"
+  },
+  "_ga": {
+    "platform": "Google Analytics",
+    "category": "Analytics",
+    "description": "ID used to identify users"
+  },
+  "_ga_": {
+    "platform": "Google Analytics",
+    "category": "Analytics",
+    "description": "ID used to identify users"
+  },
+  "_gid": {
+    "platform": "Google Analytics",
+    "category": "Analytics",
+    "description": "ID used to identify users for 24 hours after last activity"
+  },
+  "_gat": {
+    "platform": "Google Analytics",
+    "category": "Analytics",
+    "description": "Used to monitor number of Google Analytics server requests when using Google Tag Manager"
+  },
+  "_dc_gtm_": {
+    "platform": "Google Analytics",
+    "category": "Analytics",
+    "description": "Used to monitor number of Google Analytics server requests"
+  },
+  "AMP_TOKEN": {
+    "platform": "Google Analytics",
+    "category": "Analytics",
+    "description": "Contains a token code that is used to read out a Client ID from the AMP Client ID Service. By matching this ID with that of Google Analytics, users can be matched when switching between AMP content and non-AMP content.\n\nReference: https://support.google.com/analytics/answer/7486764?hl=en"
+  },
+  "_gat_gtag_": {
+    "platform": "Goolge Analytics",
+    "category": "Analytics",
+    "description": "Used to set and get tracking data"
+  },
+  "_gac_": {
+    "platform": "Google Analytics",
+    "category": "Marketing",
+    "description": "Contains information related to marketing campaigns of the user. These are shared with Google AdWords / Google Ads when the Google Ads and Google Analytics accounts are linked together."
+  },
+  "__utma": {
+    "platform": "Google Analytics",
+    "category": "Analytics",
+    "description": "ID used to identify users and sessions"
+  },
+  "__utmt": {
+    "platform": "Google Analytics",
+    "category": "Analytics",
+    "description": "Used to monitor number of Google Analytics server requests"
+  },
+  "__utmb": {
+    "platform": "Google Analytics",
+    "category": "Analytics",
+    "description": "Used to distinguish new sessions and visits. This cookie is set when the GA.js javascript library is loaded and there is no existing __utmb cookie. The cookie is updated every time data is sent to the Google Analytics server."
+  },
+  "__utmc": {
+    "platform": "Google Analytics",
+    "category": "Analytics",
+    "description": "Used only with old Urchin versions of Google Analytics and not with GA.js. Was used to distinguish between new sessions and visits at the end of a session."
+  },
+  "__utmz": {
+    "platform": "Google Analytics",
+    "category": "Analytics",
+    "description": "Contains information about the traffic source or campaign that directed user to the website. The cookie is set when the GA.js javascript is loaded and updated when data is sent to the Google Anaytics server"
+  },
+  "__utmv": {
+    "platform": "Google Analytics",
+    "category": "Analytics",
+    "description": "Bevat custom informatie die door de webdeveloper is ingesteld via de _setCustomVar methode in Google Analytics. Deze cookie wordt iedere keer geupdate als er nieuwe gegevens naar de Google Analytics server worden gestuurd. "
+  },
+  "__utmx": {
+    "platform": "Google Analytics",
+    "category": "Analytics",
+    "description": "Used to determine whether a user is included in an A / B or Multivariate test."
+  },
+  "__utmxx": {
+    "platform": "Google Analytics",
+    "category": "Analytics",
+    "description": "Used to determine when the A / B or Multivariate test in which the user participates ends"
+  },
+  "_GRECAPTCHA": {
+    "platform": "Google reCAPTCHA",
+    "category": "Functional",
+    "description": "Google reCAPTCHA sets a necessary cookie (_GRECAPTCHA) when executed for the purpose of providing its risk analysis."
+  },
+  "S1": {
+    "platform": "comScore",
+    "category": "Analytics",
+    "description": "Comscore: statistical and analytical data"
+  },
+  "C1": {
+    "platform": "comScore",
+    "category": "Analytics",
+    "description": "Comscore: statistical and analytical data"
+  },
+  "s_cc": {
+    "platform": "Adobe Analytics",
+    "category": "Analytics",
+    "description": "Used to determine if browser of user accepts cookies or not"
+  },
+  "s_sq": {
+    "platform": "Adobe Analytics",
+    "category": "Analytics",
+    "description": "Used to register the previous link clicked by the user"
+  },
+  "s_vi": {
+    "platform": "Adobe Analytics",
+    "category": "Analytics",
+    "description": "Contains a unique ID to identify a user"
+  },
+  "s_fid": {
+    "platform": "Adobe Analytics",
+    "category": "Analytics",
+    "description": "Alternative cookie with unique user ID / timestamp when the s_vi cookie can not be set for technical reasons"
+  },
+  "fid": {
+    "platform": "Adobe Analytics",
+    "category": "Analytics",
+    "description": "If other visitor ID methods fail, Adobe sets a fallback cookie or uses a combination of IP address and user agent to identify the visitor."
+  },
+  "demdex": {
+    "platform": "Adobe Audience Manager",
+    "category": "Marketing",
+    "description": "Unique value with which Audience Manager can identify a user. Used, among others, for identification, segmentation, modeling and reporting purposes."
+  },
+  "dextp": {
+    "platform": "Adobe Audience Manager",
+    "category": "Marketing",
+    "description": "Registers the date plus time (timestamp) on which a data synchronization was last performed by the Audience Manager."
+  },
+  "dst": {
+    "platform": "Adobe Audience Manager",
+    "category": "Marketing",
+    "description": "Used to register a possible error message when sending data to a linked system."
+  },
+  "_dp Cookie": {
+    "platform": "Adobe Audience Manager",
+    "category": "Marketing",
+    "description": "Used to determine if browser of user accepts cookies or not"
+  },
+  "aam_uuid": {
+    "platform": "Adobe Audience Manager",
+    "category": "Marketing",
+    "description": "Adobe Audience Manager - data management platform uses these cookies to assign a unique ID when users visit a website."
+  },
+  "AMCV_": {
+    "platform": "Adobe Audience Manager",
+    "category": "Marketing",
+    "description": "Adobe Experience Cloud uses a cookie to store a unique visitor ID that is used across Experience Cloud Solutions."
+  },
+  "AMCVS_": {
+    "platform": "Adobe Audience Manager",
+    "category": "Marketing",
+    "description": "The AMCVS cookie serves as a flag indicating that the session has been initialized. Its value is always 1 and discontinues when the session has ended."
+  },
+  "mbox": {
+    "platform": "Adobe Audience Manager",
+    "category": "Marketing",
+    "description": "Adobe Target uses cookies to give website operators the ability to test which online content and offers are more relevant to visitors."
+  },
+  "at_check": {
+    "platform": "Adobe Audience Manager",
+    "category": "Functional",
+    "description": "A simple test value used to determine if a visitor supports cookies. Set each time a visitor requests a page."
+  },
+  "renderid": {
+    "platform": "Adobe Audience Manager",
+    "category": "Functional",
+    "description": "This cookie is needed by the dispatcher (webserver) to distinguish between the different publisher server."
+  },
+  "s_ppv": {
+    "platform": "Adobe Analytics",
+    "category": "Analytics",
+    "description": "Stores information on the percentage of the page displayed"
+  },
+  "s_tp": {
+    "platform": "Adobe Analytics",
+    "category": "Analytics",
+    "description": "This lets us know how much of the page you viewed."
+  },
+  "TPC": {
+    "platform": "Adform",
+    "category": "Marketing",
+    "description": "Used to determine if browser of user accepts third party cookies or not"
+  },
+  "C": {
+    "platform": "Adform",
+    "category": "Marketing",
+    "description": "Used to determine if browser of user accepts cookies or not"
+  },
+  "uid": {
+    "platform": "Adform",
+    "category": "Marketing",
+    "description": "Contains a unique ID to identify a user"
+  },
+  "cid": {
+    "platform": "Adform",
+    "category": "Marketing",
+    "description": "Unique value to be able to identify cookies from users (same as uid)"
+  },
+  "GCM": {
+    "platform": "Adform",
+    "category": "Marketing",
+    "description": "Checks if a new partner cookie synchronozation is required"
+  },
+  "CM": {
+    "platform": "Adform",
+    "category": "Marketing",
+    "description": "Checks if a new partner cookie synchronozation is required (cookie set by ad server)"
+  },
+  "CM14": {
+    "platform": "Adform",
+    "category": "Marketing",
+    "description": "Checks if a new partner cookie synchronozation is required (cookie set during cookie synchronozation )"
+  },
+  "token": {
+    "platform": "Adform",
+    "category": "Marketing",
+    "description": "Security token for opt out functionality"
+  },
+  "otsid": {
+    "platform": "Adform",
+    "category": "Marketing",
+    "description": "Opt out cookie for specific advertiser"
+  },
+  "adtrc": {
+    "platform": "Adform",
+    "category": "Marketing",
+    "description": "Used to determine if browser related information has been collected"
+  },
+  "SR<RotatorID>": {
+    "platform": "Adform",
+    "category": "Marketing",
+    "description": "Unique value that records info about consecutive ads - includes: total impressions, daily impressions, total clicks, daily clicks, and last impression date"
+  },
+  "CT<TrackingSetupID>": {
+    "platform": "Adform",
+    "category": "Marketing",
+    "description": "Identifies the last click membership for third-party pixels on advertiser's pages"
+  },
+  "EBFCD<BannerID>": {
+    "platform": "Adform",
+    "category": "Marketing",
+    "description": "Registers daily max. number of impressions (frequency cap) for expanding advertisements (expandables)"
+  },
+  "EBFC<BannerID>": {
+    "platform": "Adform",
+    "category": "Marketing",
+    "description": "Registers max. total number of impressions (frequency cap) for expanding advertisements (expandables)"
+  },
+  "CFFC<TagID>": {
+    "platform": "Adform",
+    "category": "Marketing",
+    "description": "Registers max. number of impressions (frequency cap) for compound banners"
+  },
+  "DigiTrust.v1.identity": {
+    "platform": "Adform",
+    "category": "Marketing",
+    "description": "Unique value with which the user is identified by DigiTrust, an independent industrial body"
+  },
+  "lu": {
+    "platform": "Facebook",
+    "category": "Marketing",
+    "description": "Used to record whether the person chose to remain logged in\n\nContents: User ID and miscellaneous log in information (e.g., number of logins per account, state of the \"remember me\" check box, etc.)"
+  },
+  "xs": {
+    "platform": "Facebook",
+    "category": "Marketing",
+    "description": "Used in conjunction with the c_user cookie to authenticate your identity to Facebook.\n\nContents: Session ID, creation time, authentication value, secure session state, caching group ID"
+  },
+  "c_user": {
+    "platform": "Facebook",
+    "category": "Marketing",
+    "description": "Used in conjunction with the xs cookie to authenticate your identity to Facebook.\n\nContents: User ID"
+  },
+  "m_user": {
+    "platform": "Facebook",
+    "category": "Marketing",
+    "description": "Used to authenticate your identity on Facebook's mobile website.\n\nContents: Email, User ID, authentication value, version, user agent capability, creation time, Facebook version indicator"
+  },
+  "pl": {
+    "platform": "Facebook",
+    "category": "Marketing",
+    "description": "Used to record that a device or browser logged in via Facebook platform.\n\nContents: Y/N"
+  },
+  "dbln": {
+    "platform": "Facebook",
+    "category": "Marketing",
+    "description": "Used to enable device-based logins\n\nContents: Login authentication values"
+  },
+  "aks": {
+    "platform": "Facebook",
+    "category": "Marketing",
+    "description": "Determines the login state of a person visiting accountkit.com\n\nContents: Account kit access token"
+  },
+  "aksb": {
+    "platform": "Facebook",
+    "category": "Marketing",
+    "description": "Authenticates logins using Account Kit\n\nContents: Request time value"
+  },
+  "sfau": {
+    "platform": "Facebook",
+    "category": "Marketing",
+    "description": "Optimizes recovery flow after failed login attempts\n\nContents: Encrypted user ID, contact point, time stamp, and other login information"
+  },
+  "ick": {
+    "platform": "Facebook",
+    "category": "Marketing",
+    "description": "Stores an encryption key used to encrypt cookies"
+  },
+  "csm": {
+    "platform": "Facebook",
+    "category": "Marketing",
+    "description": "Insecure indicator"
+  },
+  "s": {
+    "platform": "Facebook",
+    "category": "Marketing",
+    "description": "\t\nFacebook browser identification, authentication, marketing, and other Facebook-specific function cookies."
+  },
+  "datr": {
+    "platform": "Facebook",
+    "category": "Marketing",
+    "description": "Used to prevent creation of fake / spammy accounts. Datr cookie is associated with a browser, not individual people."
+  },
+  "sb": {
+    "platform": "Facebook",
+    "category": "Marketing",
+    "description": "Facebook browser identification, authentication, marketing, and other Facebook-specific function cookies."
+  },
+  "fr": {
+    "platform": "Facebook",
+    "category": "Marketing",
+    "description": "Contains a unique browser and user ID, used for targeted advertising."
+  },
+  "oo": {
+    "platform": "Facebook",
+    "category": "Marketing",
+    "description": "Ad optout cookie"
+  },
+  "ddid": {
+    "platform": "Facebook",
+    "category": "Marketing",
+    "description": "Used to open a specific location in an advertiser's app upon installation"
+  },
+  "locale": {
+    "platform": "Facebook",
+    "category": "Marketing",
+    "description": "This cookie contains the display locale of the last logged in user on this browser. This cookie\nappears to only be set after the user logs out.\nThe locale cookie has a lifetime of one week."
+  },
+  "_fbp": {
+    "platform": "Facebook",
+    "category": "Marketing",
+    "description": "Used by Facebook to deliver a series of advertisement products such as real time bidding from third party advertisers"
+  },
+  "js_ver": {
+    "platform": "Facebook",
+    "category": "Marketing",
+    "description": "Records the age of Facebook javascript files."
+  },
+  "rc": {
+    "platform": "Facebook",
+    "category": "Marketing",
+    "description": "Used to optimize site performance for advertisers"
+  },
+  "campaign_click_url": {
+    "platform": "Facebook",
+    "category": "Marketing",
+    "description": "Records the Facebook URL that an individual landed on after clicking on an ad promoting Facebook"
+  },
+  "wd": {
+    "platform": "Facebook",
+    "category": "Functional",
+    "description": "This cookie stores the browser window dimensions and is used by Facebook to optimise the rendering of the page."
+  },
+  "IDE": {
+    "platform": "DoubleClick/Google Marketing",
+    "category": "Marketing",
+    "description": "This cookie is used for targeting, analyzing and optimisation of ad campaigns in DoubleClick/Google Marketing Suite "
+  },
+  "DSID": {
+    "platform": "DoubleClick/Google Marketing",
+    "category": "Marketing",
+    "description": "This cookie is used for targeting, analyzing and optimisation of ad campaigns in DoubleClick/Google Marketing Suite "
+  },
+  "ID": {
+    "platform": "DoubleClick/Google Marketing",
+    "category": "Marketing",
+    "description": "This cookie is used for targeting, analyzing and optimisation of ad campaigns in DoubleClick/Google Marketing Suite "
+  },
+  "RUL": {
+    "platform": "DoubleClick/Google Marketing",
+    "category": "Marketing",
+    "description": "Used by DoubleClick to determine if the website ad was properly displayed. This is done to make their marketing efforts more efficient."
+  },
+  "__gads": {
+    "platform": "DoubleClick/Google Marketing",
+    "category": "Marketing",
+    "description": "This cookie is used by Google for a variety of purposes (e.g., ensuring Frequency Caps work correctly). It includes AdSense if you have AdSense enabled. This cookie is associated with the DoubleClick for Publishers service from Google. Its purpose is to monitor the showing of advertisements on the site, for which the owner may earn some revenue. The main purpose of this cookie is targeting/advertising."
+  },
+  "fl_inst": {
+    "platform": "Platform161",
+    "category": "Marketing",
+    "description": "Used to check if Flash plugin is enabled in browser of user."
+  },
+  "pvc2": {
+    "platform": "Platform161",
+    "category": "Marketing",
+    "description": "Contains information related to ad impressions."
+  },
+  "pcc2": {
+    "platform": "Platform161",
+    "category": "Marketing",
+    "description": "Contains information related to ad impressions."
+  },
+  "trc": {
+    "platform": "Platform161",
+    "category": "Marketing",
+    "description": "Contains information related to ad impressions."
+  },
+  "tuuid": {
+    "platform": "Platform161",
+    "category": "Marketing",
+    "description": "Unique value to identify individual users."
+  },
+  "ad2": {
+    "platform": "Platform161",
+    "category": "Marketing",
+    "description": "Contains information related to ad impressions."
+  },
+  "MR": {
+    "platform": "Bing / Microsoft",
+    "category": "Marketing",
+    "description": "Used to collect information for analytics purposes."
+  },
+  "MUID": {
+    "platform": "Bing / Microsoft",
+    "category": "Marketing",
+    "description": "Identifies unique web browsers visiting Microsoft sites. These cookies are used for advertising, site analytics, and other operational purposes."
+  },
+  "MUIDB": {
+    "platform": "Bing / Microsoft",
+    "category": "Marketing",
+    "description": "Identifies unique web browsers visiting Microsoft sites. These cookies are used for advertising, site analytics, and other operational purposes."
+  },
+  "MC1": {
+    "platform": "Bing / Microsoft",
+    "category": "Marketing",
+    "description": "Identifies unique web browsers visiting Microsoft sites. These cookies are used for advertising, site analytics, and other operational purposes."
+  },
+  "MSFPC": {
+    "platform": "Bing / Microsoft",
+    "category": "Marketing",
+    "description": "Identifies unique web browsers visiting Microsoft sites. These cookies are used for advertising, site analytics, and other operational purposes."
+  },
+  "_uetsid": {
+    "platform": "Bing / Microsoft",
+    "category": "Marketing",
+    "description": "This cookie is used by Bing to determine what ads should be shown that may be relevant to the end user perusing the site."
+  },
+  "_uetvid": {
+    "platform": "Bing / Microsoft",
+    "category": "Marketing",
+    "description": "This is a cookie utilised by Microsoft Bing Ads and is a tracking cookie. It allows us to engage with a user that has previously visited our website."
+  },
+  "ANON": {
+    "platform": "Bing / Microsoft",
+    "category": "Marketing",
+    "description": "Contains the ANID, a unique identifier derived from your Microsoft account, which is used for advertising, personalization, and operational purposes. It is also used to preserve your choice to opt out of interest-based advertising from Microsoft if you have chosen to associate the opt-out with your Microsoft account."
+  },
+  "ANONCHK": {
+    "platform": "Bing / Microsoft",
+    "category": "Marketing",
+    "description": "Used to store session ID for a users session to ensure that clicks from adverts on the Bing search engine are verified for reporting purposes and for personalisation"
+  },
+  "CC": {
+    "platform": "Bing / Microsoft",
+    "category": "Marketing",
+    "description": "Contains a country code as determined from your IP address."
+  },
+  "PPAuth": {
+    "platform": "Bing / Microsoft",
+    "category": "Functional",
+    "description": "Helps to authenticate you when you sign in with your Microsoft account."
+  },
+  "MSPAuth": {
+    "platform": "Bing / Microsoft",
+    "category": "Functional",
+    "description": "Helps to authenticate you when you sign in with your Microsoft account."
+  },
+  "MSNRPSAuth": {
+    "platform": "Bing / Microsoft",
+    "category": "Functional",
+    "description": "Helps to authenticate you when you sign in with your Microsoft account."
+  },
+  "KievRPSAuth": {
+    "platform": "Bing / Microsoft",
+    "category": "Functional",
+    "description": "Helps to authenticate you when you sign in with your Microsoft account."
+  },
+  "WLSSC": {
+    "platform": "Bing / Microsoft",
+    "category": "Functional",
+    "description": "Helps to authenticate you when you sign in with your Microsoft account."
+  },
+  "MSPProf": {
+    "platform": "Bing / Microsoft",
+    "category": "Functional",
+    "description": "Helps to authenticate you when you sign in with your Microsoft account."
+  },
+  "MC0": {
+    "platform": "Bing / Microsoft",
+    "category": "Functional",
+    "description": "Detects whether cookies are enabled in the browser."
+  },
+  "MS0": {
+    "platform": "Bing / Microsoft",
+    "category": "Functional",
+    "description": "Identifies a specific session."
+  },
+  "NAP": {
+    "platform": "Bing / Microsoft",
+    "category": "Marketing",
+    "description": "Contains an encrypted version of your country, postal code, age, gender, language and occupation, if known, based on your Microsoft account profile."
+  },
+  "MH": {
+    "platform": "Bing / Microsoft",
+    "category": "Marketing",
+    "description": "Appears on co-branded sites where Microsoft is partnering with an advertiser. This cookie identifies the advertiser, so the right ad is selected."
+  },
+  "childinfo": {
+    "platform": "Bing / Microsoft",
+    "category": "Marketing",
+    "description": "Contains information that Microsoft account uses within its pages in relation to child accounts."
+  },
+  "kcdob": {
+    "platform": "Bing / Microsoft",
+    "category": "Marketing",
+    "description": "Contains information that Microsoft account uses within its pages in relation to child accounts."
+  },
+  "kcrelid": {
+    "platform": "Bing / Microsoft",
+    "category": "Marketing",
+    "description": "Contains information that Microsoft account uses within its pages in relation to child accounts."
+  },
+  "kcru": {
+    "platform": "Bing / Microsoft",
+    "category": "Marketing",
+    "description": "Contains information that Microsoft account uses within its pages in relation to child accounts."
+  },
+  "pcfm": {
+    "platform": "Bing / Microsoft",
+    "category": "Marketing",
+    "description": "Contains information that Microsoft account uses within its pages in relation to child accounts."
+  },
+  "x-ms-gateway-slice": {
+    "platform": "Bing / Microsoft",
+    "category": "Functional",
+    "description": "Identifies a gateway for load balancing."
+  },
+  "ToptOut": {
+    "platform": "Bing / Microsoft",
+    "category": "Marketing",
+    "description": "Records your decision not to receive interest-based advertising delivered by Microsoft."
+  },
+  "ACH01": {
+    "platform": "Bing / Microsoft",
+    "category": "Marketing",
+    "description": "Maintains information about which ad and where the user clicked on the ad."
+  },
+  "AADSSO": {
+    "platform": "Bing / Microsoft",
+    "category": "Functional",
+    "description": "Microsoft Microsoft Online Authentication Cookie"
+  },
+  "brcap": {
+    "platform": "Bing / Microsoft",
+    "category": "Functional",
+    "description": "Microsoft Microsoft Online Authentication Cookie"
+  },
+  "SRM_B": {
+    "platform": "Bing / Microsoft",
+    "category": "Functional",
+    "description": " Collected user data is specifically adapted to the user or device. The usercan also be followed outside of the loaded website, creating a picture of the visitor's behavior."
+  },
+  "buid": {
+    "platform": "Azure / Microsoft",
+    "category": "Functional",
+    "description": "This cookie is used by Microsoft to securely verify your login information"
+  },
+  "esctx": {
+    "platform": "Azure / Microsoft",
+    "category": "Functional",
+    "description": "This cookie is used by Microsoft to securely verify your login information"
+  },
+  "fpc": {
+    "platform": "Azure / Microsoft",
+    "category": "Functional",
+    "description": "This cookie is used by Microsoft to securely verify your login information"
+  },
+  "stsservicecookie": {
+    "platform": "Azure / Microsoft",
+    "category": "Functional",
+    "description": "Cookie for Azure Active Directory B2C-verification"
+  },
+  "ARRAffinity": {
+    "platform": "Azure / Microsoft",
+    "category": "Functional",
+    "description": "When using Microsoft Azure as a hosting platform and enabling load balancing, this cookie ensures that  requests from one visitor's browsing session are always handled by the same server in the cluster."
+  },
+  "ARRAffinitySameSite": {
+    "platform": "Azure / Microsoft",
+    "category": "Functional",
+    "description": "When using Microsoft Azure as a hosting platform and enabling load balancing, this cookie ensures that  requests from one visitor's browsing session are always handled by the same server in the cluster."
+  },
+  "__AntiXsrfToken": {
+    "platform": "Azure / Microsoft",
+    "category": "Functional",
+    "description": "This cookie is used to prevent Cross-site request forgery (often abbreviated as CSRF) attacks of the website. CSRF attacks exploit the trust that a site has in a user's browser."
+  },
+  ".ASPXANONYMOUS": {
+    "platform": "Azure / Microsoft",
+    "category": "Functional",
+    "description": "Created by ASP.Net. This cookie configures anonymous identification for application authorization. This is required to identify entities that are not authenticated when authorization is required."
+  },
+  "nSGt-": {
+    "platform": "Azure / Microsoft",
+    "category": "Functional",
+    "description": "This cookie is used by Microsoft to securely verify your Sharepoint login information"
+  },
+  "RpsContextCookie": {
+    "platform": "Azure / Microsoft",
+    "category": "Functional",
+    "description": "This cookie is used by Microsoft to securely verify your Sharepoint login information"
+  },
+  "ASLBSACORS": {
+    "platform": "Azure / Microsoft",
+    "category": "Functional",
+    "description": "Microsoft App Service and Front Door Affinity Cookies. These cookies are used to direct your browser to use the appropriate backend server."
+  },
+  "ASLBSA": {
+    "platform": "Azure / Microsoft",
+    "category": "Functional",
+    "description": "Microsoft App Service and Front Door Affinity Cookies. These cookies are used to direct your browser to use the appropriate backend server."
+  },
+  "ASPSESSIONID": {
+    "platform": "Azure / Microsoft",
+    "category": "Functional",
+    "description": "Browsing session: the asterisks identify an alphanumerical code that varies from session to session in automatic mode."
+  },
+  "ApplicationGatewayAffinity": {
+    "platform": "Azure / Microsoft",
+    "category": "Functional",
+    "description": "This cookie is used by Azure Apps to keep a user session on the same server."
+  },
+  "ApplicationGatewayAffinityCORS": {
+    "platform": "Azure / Microsoft",
+    "category": "Functional",
+    "description": "This cookie is used by Azure Apps to keep a user session on the same server."
+  },
+  "VisitorStorageGuid": {
+    "platform": "Azure / Microsoft",
+    "category": "Functional",
+    "description": "This cookie is used by Azure Apps to keep a user session on the same server."
+  },
+  "ai_session": {
+    "platform": "Microsoft Azure App Insights",
+    "category": "Functional",
+    "description": "This is a unique anonymous session identifier cookie."
+  },
+  "ai_user": {
+    "platform": "Microsoft Azure App Insights",
+    "category": "Functional",
+    "description": "This is a unique user identifier cookie enabling counting of the number of users accessing the application over time."
+  },
+  "AADNonce.forms": {
+    "platform": "Microsoft Dynamics",
+    "category": "Functional",
+    "description": "Unique identifier of one authentication session to prevent replay."
+  },
+  "DcLcid": {
+    "platform": "Microsoft Dynamics",
+    "category": "Functional",
+    "description": "Saves language preference."
+  },
+  "_clck": {
+    "platform": "Microsoft",
+    "category": "Analytics",
+    "description": " This cookie is installed by Microsoft Clarity to store information of how visitors use a website and help in creating an analytics report of how the website is doing. The data collected including the number visitors, the source where they have come from, and the pages visited in an anonymous form."
+  },
+  "_clsk": {
+    "platform": "Microsoft",
+    "category": "Analytics",
+    "description": "This cookie is installed by Microsoft Clarity to store information of how visitors use a website and help in creating an analytics report of how the website is doing. The data collected including the number visitors, the source where they have come from, and the pages visited in an anonymous form."
+  },
+  "guest_id": {
+    "platform": "Twitter",
+    "category": "Marketing",
+    "description": "This cookie is set by Twitter to identify and track the website visitor. Registers if a users is signed in the Twitter platform and collects information about ad preferences. "
+  },
+  "personalization_id": {
+    "platform": "Twitter",
+    "category": "Marketing",
+    "description": "Unique value with which users can be identified by Twitter. Collected information is used to be personalize Twitter services, including Twitter trends, stories, ads and suggestions."
+  },
+  "ct0": {
+    "platform": "Twitter",
+    "category": "Marketing",
+    "description": "These cookies enable us to track visitor activity from our Twitter ads on our website, and also to allow users to share content from our websites. They cookies do not provide us with any confidential information relating to your account."
+  },
+  "gt": {
+    "platform": "Twitter",
+    "category": "Marketing",
+    "description": "Twitter uses these cookies to support plugin integration with our website. If you use the Tweet plugin and log into your Twitter account, Twitter will set some of these cookies to remember that you are logged in. Twitter will also use cookies for their own analytics purposes."
+  },
+  "N/A": {
+    "platform": "Meetrics",
+    "category": "Analytics",
+    "description": "Javascript tag used to measure and monitor ad visibilty/viewability and brand safety standards."
+  },
+  "__insp_pad": {
+    "platform": "Inspectlet",
+    "category": "Analytics",
+    "description": "This cookie contains the page number of the session recording."
+  },
+  "__insp_sid": {
+    "platform": "Inspectlet",
+    "category": "Analytics",
+    "description": "This cookie contains the ID of the Inspectlet session that is being recorded."
+  },
+  "__insp_ref": {
+    "platform": "Inspectlet",
+    "category": "Analytics",
+    "description": "The cookie contains the referrer source/URL"
+  },
+  "__insp_scpt": {
+    "platform": "Inspectlet",
+    "category": "Analytics",
+    "description": "This cookie contains an integer that allows us to know if the screen capture was triggered or not."
+  },
+  "__insp_nv": {
+    "platform": "Inspectlet",
+    "category": "Analytics",
+    "description": "This cookie contains a value that allows Inspectlet to know if this user is a new visitor or a returning visitor."
+  },
+  "__insp_wid": {
+    "platform": "Inspectlet",
+    "category": "Analytics",
+    "description": "This cookie contains an uniqe user ID provided by the website if set up."
+  },
+  "__insp_uid": {
+    "platform": "Inspectlet",
+    "category": "Analytics",
+    "description": "This cookie contains random ID assigned to a visitor."
+  },
+  "__insp_dct": {
+    "platform": "Inspectlet",
+    "category": "Analytics",
+    "description": "Registers statistical data on visitors' behaviour on the website. Used for internal analytics by the website operator."
+  },
+  "CTK": {
+    "platform": "Indeed",
+    "category": "Analytics",
+    "description": "Contains information related to registering (counting) a job application via a job listing on indeed.com."
+  },
+  "ctkgen": {
+    "platform": "Indeed",
+    "category": "Analytics",
+    "description": "Contains information related to registering (counting) a job application via a job listing on indeed.com."
+  },
+  "INDEED_CSRF_TOKEN": {
+    "platform": "Indeed",
+    "category": "Analytics",
+    "description": "Contains information related to registering (counting) a job application via a job listing on indeed.com."
+  },
+  "jasx_pool_id": {
+    "platform": "Indeed",
+    "category": "Analytics",
+    "description": "Contains information related to registering (counting) a job application via a job listing on indeed.com."
+  },
+  "pagead/conv/%INTEGER%": {
+    "platform": "Indeed",
+    "category": "Analytics",
+    "description": "Contains information related to registering (counting) a job application via a job listing on indeed.com."
+  },
+  "tv_spot_tracker": {
+    "platform": "Abovo Media",
+    "category": "Analytics",
+    "description": "Contains information about the timeslot of a running TV ad"
+  },
+  "cookie-consent-io": {
+    "platform": "CookieConsent.io",
+    "category": "Functional",
+    "description": "Registers cookie preferences of a user"
+  },
+  "cookie-consent-io-timestamp": {
+    "platform": "CookieConsent.io",
+    "category": "Functional",
+    "description": "Registers user activity timestamp"
+  },
+  "GPS": {
+    "platform": "Youtube",
+    "category": "Marketing",
+    "description": "Registers a unique ID on mobile devices to enable tracking based on geographical GPS location."
+  },
+  "VISITOR_INFO1_LIVE": {
+    "platform": "Youtube",
+    "category": "Marketing",
+    "description": "Tries to estimate the users' bandwidth on pages with integrated YouTube videos."
+  },
+  "PREF": {
+    "platform": "Youtube",
+    "category": "Functional",
+    "description": "This cookie stores your preferences and other information, in particular preferred language, how many search results you wish to be shown on your page, and whether or not you wish to have Google’s SafeSearch filter turned on."
+  },
+  "YSC": {
+    "platform": "Youtube",
+    "category": "Functional",
+    "description": "Registers a unique ID to keep statistics of what videos from YouTube the user has seen."
+  },
+  "__adm_ui": {
+    "platform": "Admatic",
+    "category": "Marketing",
+    "description": "Used to track visitors on multiple websites, in order to present relevant advertisement based on the visitor's preferences."
+  },
+  "__adm_uiex": {
+    "platform": "Admatic",
+    "category": "Marketing",
+    "description": "Used to track visitors on multiple websites, in order to present relevant advertisement based on the visitor's preferences."
+  },
+  "__adm_usyncc": {
+    "platform": "Admatic",
+    "category": "Marketing",
+    "description": "Used to identify the visitor across visits and devices. This allows the website to present the visitor with relevant advertisement - The service is provided by third party advertisement hubs, which facilitate real-time bidding for advertisers."
+  },
+  "__cfduid": {
+    "platform": "Cloudflare",
+    "category": "Functional",
+    "description": "The '__cfduid' cookie is set by the CloudFlare service to identify trusted web traffic. It does not correspond to any user id in the web application, nor does the cookie store any personally identifiable"
+  },
+  "__cfruid": {
+    "platform": "Cloudflare",
+    "category": "Functional",
+    "description": "Used by the content network, Cloudflare, to identify trusted web traffic."
+  },
+  "__cf_bm": {
+    "platform": "Cloudflare",
+    "category": "Functional",
+    "description": "Cloudflare's bot products identify and mitigate automated traffic to protect your site from bad bots. Cloudflare places the __cf_bm cookie on End User devices that access Customer sites that are protected by Bot Management or Bot Fight Mode. The __cf_bm cookie is necessary for the proper functioning of these bot solutions."
+  },
+  "__uin_bw": {
+    "platform": "Sonobi",
+    "category": "Marketing",
+    "description": "Collects information on visitor behaviour on multiple websites. This information is used on the website, in order to optimize the relevance of advertisement."
+  },
+  "__uir_bw": {
+    "platform": "Sonobi",
+    "category": "Marketing",
+    "description": "Collects data on visitors' behaviour and interaction - This is used to optimize the website and make advertisement on the website more relevant."
+  },
+  "__uis": {
+    "platform": "Sonobi",
+    "category": "Marketing",
+    "description": "Used to track visitors on multiple websites, in order to present relevant advertisement based on the visitor's preferences."
+  },
+  "HAPLB5S": {
+    "platform": "Sonobi",
+    "category": "Marketing",
+    "description": "Used to track visitors on multiple websites, in order to present relevant advertisement based on the visitor's preferences."
+  },
+  "_dbefe": {
+    "platform": "Pulsepoint",
+    "category": "Marketing",
+    "description": "Collects information on user preferences and/or interaction with web-campaign content - This is used on CRM-campaign-platform used by website owners for promoting events or products."
+  },
+  "_hjid": {
+    "platform": "Hotjar",
+    "category": "Analytics",
+    "description": "Hotjar cookie. This cookie is set when the customer first lands on a page with the Hotjar script. It is used to persist the random user ID, unique to that site on the browser. This ensures that behavior in subsequent visits to the same site will be attributed to the same user ID."
+  },
+  "_hjIncludedInSample": {
+    "platform": "Hotjar",
+    "category": "Analytics",
+    "description": "Hotjar cookie. This session cookie is set to let Hotjar know whether that visitor is included in the sample which is used to generate funnels."
+  },
+  "_hjClosedSurveyInvites": {
+    "platform": "Hotjar",
+    "category": "Analytics",
+    "description": "Hotjar cookie. This cookie is set once a visitor interacts with a Survey invitation modal popup. It is used to ensure that the same invite does not re-appear if it has already been shown."
+  },
+  "_hjDonePolls": {
+    "platform": "Hotjar",
+    "category": "Analytics",
+    "description": "Hotjar cookie. This cookie is set once a visitor completes a poll using the Feedback Poll widget. It is used to ensure that the same poll does not re-appear if it has already been filled in."
+  },
+  "_hjMinimizedPolls": {
+    "platform": "Hotjar",
+    "category": "Analytics",
+    "description": "Hotjar cookie. This cookie is set once a visitor minimizes a Feedback Poll widget. It is used to ensure that the widget stays minimizes when the visitor navigates through your site."
+  },
+  "_hjDoneTestersWidgets": {
+    "platform": "Hotjar",
+    "category": "Analytics",
+    "description": "Hotjar cookie. This cookie is set once a visitor submits their information in the Recruit User Testers widget. It is used to ensure that the same form does not re-appear if it has already been filled in."
+  },
+  "_hjMinimizedTestersWidgets": {
+    "platform": "Hotjar",
+    "category": "Analytics",
+    "description": "Hotjar cookie. This cookie is set once a visitor minimizes a Recruit User Testers widget. It is used to ensure that the widget stays minimizes when the visitor navigates through your site."
+  },
+  "_hjShownFeedbackMessage": {
+    "platform": "Hotjar",
+    "category": "Analytics",
+    "description": "This cookie is set when a visitor minimizes or completes Incoming Feedback. This is done so that the Incoming Feedback will load as minimized immediately if they navigate to another page where it is set to show."
+  },
+  "_hjTLDTest": {
+    "platform": "Hotjar",
+    "category": "Functional",
+    "description": "When the Hotjar script executes we try to determine the most generic cookie path we should use, instead of the page hostname. This is done so that cookies can be shared across subdomains (where applicable). To determine this, we try to store the _hjTLDTest cookie for different URL substring alternatives until it fails. After this check, the cookie is removed."
+  },
+  "_hjUserAttributesHash": {
+    "platform": "Hotjar",
+    "category": "Functional",
+    "description": "User Attributes sent through the Hotjar Identify API are cached for the duration of the session in order to know when an attribute has changed and needs to be updated."
+  },
+  "_hjCachedUserAttributes": {
+    "platform": "Hotjar",
+    "category": "Analytics",
+    "description": "This cookie stores User Attributes which are sent through the Hotjar Identify API, whenever the user is not in the sample. These attributes will only be saved if the user interacts with a Hotjar Feedback tool."
+  },
+  "_hjLocalStorageTest": {
+    "platform": "Hotjar",
+    "category": "Functional",
+    "description": "This cookie is used to check if the Hotjar Tracking Script can use local storage. If it can, a value of 1 is set in this cookie. The data stored in_hjLocalStorageTest has no expiration time, but it is deleted immediately after creating it so the expected storage time is under 100ms."
+  },
+  "_hjptid": {
+    "platform": "Hotjar",
+    "category": "Functional",
+    "description": "This cookie is set for logged in users of Hotjar, who have Admin Team Member permissions. It is used during pricing experiments to show the Admin consistent pricing across the site."
+  },
+  "_hjAbsoluteSessionInProgress": {
+    "platform": "Hotjar",
+    "category": "Functional",
+    "description": "The cookie is set so Hotjar can track the beginning of the user's journey for a total session count. It does not contain any identifiable information."
+  },
+  "_hjFirstSeen": {
+    "platform": "Hotjar",
+    "category": "Functional",
+    "description": "The cookie is set so Hotjar can track the beginning of the user's journey for a total session count. It does not contain any identifiable information."
+  },
+  "_hjIncludedInPageviewSample": {
+    "platform": "Hotjar",
+    "category": "Functional",
+    "description": "This cookie is set to let Hotjar know whether that visitor is included in the data sampling defined by your site's pageview limit."
+  },
+  "_hjIncludedInSessionSample": {
+    "platform": "Hotjar",
+    "category": "Functional",
+    "description": "This cookie is set to let Hotjar know whether that visitor is included in the data sampling defined by your site's daily session limit"
+  },
+  "_hjSession_": {
+    "platform": "Hotjar",
+    "category": "Functional",
+    "description": "A cookie that holds the current session data. This ensues that subsequent requests within the session window will be attributed to the same Hotjar session."
+  },
+  "_hjSessionUser_": {
+    "platform": "Hotjar",
+    "category": "Functional",
+    "description": "Hotjar cookie that is set when a user first lands on a page with the Hotjar script. It is used to persist the Hotjar User ID, unique to that site on the browser. This ensures that behavior in subsequent visits to the same site will be attributed to the same user ID."
+  },
+  "_kuid_": {
+    "platform": "Salesforce",
+    "category": "Marketing",
+    "description": "Registers a unique ID that identifies a returning user's device. The ID is used for targeted ads."
+  },
+  "_twitter_sess": {
+    "platform": "Twitter",
+    "category": "Marketing",
+    "description": "This cookie is set due to Twitter integration and sharing capabilities for the social media."
+  },
+  "_gcl_au": {
+    "platform": "Google",
+    "category": "Marketing",
+    "description": "Used by Google AdSense for experimenting with advertisement efficiency across websites using their services."
+  },
+  "ac_enable_tracking": {
+    "platform": "Active Campaign",
+    "category": "Marketing",
+    "description": "This cookie is associated with Active Campaign and is set to confirm that tracking has been enabled for the website. Tracking is used to create reports of our web traffic and improve the user experience of the website."
+  },
+  "ASP.NET_SessionId": {
+    "platform": "Microsoft",
+    "category": "Functional",
+    "description": "General purpose platform session cookie, used by sites written with Miscrosoft .NET based technologies. Usually used to maintain an anonymised user session by the server."
+  },
+  "ASP.NET_SessionId_Fallback": {
+    "platform": "Microsoft",
+    "category": "Functional",
+    "description": "Fallback session cookie to support older browsers that haven't implemented the Secure flag, in modern evergreen browsers this cookie is never set as it haven't got the Secure flag."
+  },
+  "JSESSIONID": {
+    "platform": "Oracle",
+    "category": "Functional",
+    "description": "JSESSIONID is a platform session cookie and is used by sites with JavaServer Pages (JSP). The cookie is used to maintain an anonymous user session by the server."
+  },
+  "laravel_session": {
+    "platform": "Laravel",
+    "category": "Functional",
+    "description": "Internally laravel uses laravel_session to identify a session instance for a user"
+  },
+  "PHPSESSID": {
+    "platform": "PHP.net",
+    "category": "Functional",
+    "description": "Cookie generated by applications based on the PHP language. This is a general purpose identifier used to maintain user session variables. It is normally a random generated number, how it is used can be specific to the site, but a good example is maintaining a logged-in status for a user between pages."
+  },
+  "XSRF-TOKEN": {
+    "platform": "Advertiser's website domain",
+    "category": "Functional",
+    "description": "This cookie is written to help with site security in preventing Cross-Site Request Forgery attacks."
+  },
+  "lidc": {
+    "platform": "LinkedIn",
+    "category": "Marketing",
+    "description": "Used by the social networking service, LinkedIn, for tracking the use of embedded services."
+  },
+  "bcookie": {
+    "platform": "LinkedIn",
+    "category": "Marketing",
+    "description": "Used by LinkedIn to track the use of embedded services."
+  },
+  "bscookie": {
+    "platform": "LinkedIn",
+    "category": "Marketing",
+    "description": "Used by LinkedIn to track the use of embedded services."
+  },
+  "trkCode": {
+    "platform": "LinkedIn",
+    "category": "Marketing",
+    "description": "This cookie is used by LinkedIn to support the functionality of adding a panel invite labeled 'Follow Us'"
+  },
+  "trkInfo": {
+    "platform": "LinkedIn",
+    "category": "Marketing",
+    "description": "This cookie is used by LinkedIn to support the functionality of adding a panel invite labeled 'Follow Us'"
+  },
+  "li_oatml": {
+    "platform": "LinkedIn",
+    "category": "Marketing",
+    "description": "Collects information about how visitors use our site."
+  },
+  "liap": {
+    "platform": "LinkedIn",
+    "category": "Marketing",
+    "description": "Cookie used for Sign-in with Linkedin and/or to allow for the Linkedin follow feature."
+  },
+  "lissc": {
+    "platform": "LinkedIn",
+    "category": "Marketing",
+    "description": "Pending"
+  },
+  "spectroscopyId": {
+    "platform": "LinkedIn",
+    "category": "Marketing",
+    "description": "These cookies are set by LinkedIn for advertising purposes, including: tracking visitors so that more relevant ads can be presented, allowing users to use the 'Apply with LinkedIn' or the 'Sign-in with LinkedIn' functions, collecting information about how visitors use the site, etc."
+  },
+  "UserMatchHistory": {
+    "platform": "LinkedIn",
+    "category": "Marketing",
+    "description": "These cookies are set by LinkedIn for advertising purposes, including: tracking visitors so that more relevant ads can be presented, allowing users to use the 'Apply with LinkedIn' or the 'Sign-in with LinkedIn' functions, collecting information about how visitors use the site, etc."
+  },
+  "lang": {
+    "platform": "LinkedIn",
+    "category": "Functional",
+    "description": "Used to remember a user's language setting"
+  },
+  "li_gc": {
+    "platform": "LinkedIn",
+    "category": "Functional",
+    "description": "Used to store guest consent to the use of cookies for non-essential purposes"
+  },
+  "li_rm": {
+    "platform": "LinkedIn",
+    "category": "Functional",
+    "description": "Used as part of the LinkedIn Remember Me feature and is set when a user clicks Remember Me on the device to make it easier for him or her to sign in to that device"
+  },
+  "AnalyticsSyncHistory": {
+    "platform": "LinkedIn",
+    "category": "Functional",
+    "description": "Used to store information about the time a sync with the lms_analytics cookie took place for users in the Designated Countries"
+  },
+  "GCLB": {
+    "platform": "Google",
+    "category": "Functional",
+    "description": "This cookie is used in context with load balancing - This optimizes the response rate between the visitor and the site, by distributing the traffic load on multiple network links or servers."
+  },
+  "AWSALB": {
+    "platform": "Amazon Web Services",
+    "category": "Functional",
+    "description": "These cookies enable us to allocate server traffic to make the user experience as smooth as possible. A so-called load balancer is used to determine which server currently has the best availability. The information generated cannot identify you as an individual."
+  },
+  "AWSALBCORS": {
+    "platform": "Amazon Web Services",
+    "category": "Functional",
+    "description": "For continued stickiness support with CORS use cases after the Chromium update, we are creating additional stickiness cookies for each of these duration-based stickiness features named AWSALBCORS (ALB)."
+  },
+  "AWSELBCORS": {
+    "platform": "Amazon Web Services",
+    "category": "Functional",
+    "description": "For continued stickiness support with CORS use cases after the Chromium update, we are creating additional stickiness cookies for each of these duration-based stickiness features named AWSELBCORS (ALB)."
+  },
+  "AWSELB": {
+    "platform": "Amazon Web Services",
+    "category": "Functional",
+    "description": "AWS Classic Load Balancer Cookie: Load Balancing Cookie: Used to map the session to the instance."
+  },
+  "CMID": {
+    "platform": "Casale Media",
+    "category": "Marketing",
+    "description": "Collects visitor data related to the user's visits to the website, such as the number of visits, average time spent on the website and what pages have been loaded, with the purpose of displaying targeted ads."
+  },
+  "CMPRO": {
+    "platform": "Casale Media",
+    "category": "Marketing",
+    "description": "Collects data on visitor behaviour from multiple websites, in order to present more relevant advertisement - This also allows the website to limit the number of times that the visitor is shown the same advertisement."
+  },
+  "CMPS": {
+    "platform": "Casale Media",
+    "category": "Marketing",
+    "description": "Collects visitor data related to the user's visits to the website, such as the number of visits, average time spent on the website and what pages have been loaded, with the purpose of displaying targeted ads"
+  },
+  "CMRUM3": {
+    "platform": "Casale Media",
+    "category": "Marketing",
+    "description": "Collects visitor data related to the user's visits to the website, such as the number of visits, average time spent on the website and what pages have been loaded, with the purpose of displaying targeted ads."
+  },
+  "CMST": {
+    "platform": "Casale Media",
+    "category": "Marketing",
+    "description": "Collects visitor data related to the user's visits to the website, such as the number of visits, average time spent on the website and what pages have been loaded, with the purpose of displaying targeted ads."
+  },
+  "cookieJartestCookie": {
+    "platform": "Outbrain",
+    "category": "Marketing",
+    "description": "Pending"
+  },
+  "obuid": {
+    "platform": "Outbrain",
+    "category": "Marketing",
+    "description": "Holds the anonymous user's ID. Used for tracking user actions, such as clicks on the recommendations"
+  },
+  "apnxs": {
+    "platform": "Outbrain",
+    "category": "Marketing",
+    "description": "This cookie is set by Outbrain and it is used to analyse technical data about the website"
+  },
+  "criteo": {
+    "platform": "Outbrain",
+    "category": "Marketing",
+    "description": "This cookie is set by Outbrain and it is used to analyse technical data about the website"
+  },
+  "mdfrc": {
+    "platform": "Outbrain",
+    "category": "Marketing",
+    "description": "This cookie is set by Outbrain and it is used to analyse technical data about the website"
+  },
+  "adrl": {
+    "platform": "Outbrain",
+    "category": "Marketing",
+    "description": "This cookie is set by Outbrain and it is used to analyse technical data about the website"
+  },
+  "ttd": {
+    "platform": "Outbrain",
+    "category": "Marketing",
+    "description": "This cookie is set by Outbrain and it is used to analyse technical data about the website"
+  },
+  "jpxumaster": {
+    "platform": "justpremium.com",
+    "category": "Marketing",
+    "description": "Used to present the visitor with relevant content and advertisement - The service is provided by third party advertisement hubs, which facilitate real-time bidding for advertisers."
+  },
+  "jpxumatched": {
+    "platform": "justpremium.com",
+    "category": "Marketing",
+    "description": "Used to present the visitor with relevant content and advertisement - The service is provided by third party advertisement hubs, which facilitate real-time bidding for advertisers."
+  },
+  "PUBMDCID": {
+    "platform": "PubMatic",
+    "category": "Marketing",
+    "description": "Registers a unique ID that identifies the user's device during return visits across websites that use the same ad network. The ID is used to allow targeted ads."
+  },
+  "PugT": {
+    "platform": "PubMatic",
+    "category": "Marketing",
+    "description": "Registers a unique ID that identifies the user's device during return visits across websites that use the same ad network. The ID is used to allow targeted ads."
+  },
+  "Kiyohnl": {
+    "platform": "Kiyoh",
+    "category": "Functional",
+    "description": "Cookies are associated with the use of Kiyoh to collect and display customer reviews"
+  },
+  "id5": {
+    "platform": "ID5",
+    "category": "Marketing",
+    "description": "Sets a unique ID for the visitor, that allows third party advertisers to target the visitor with relevant advertisement. This pairing service is provided by third party advertisement hubs, which facilitates real-time bidding for advertisers."
+  },
+  "cip": {
+    "platform": "ID5",
+    "category": "Marketing",
+    "description": "Used to present the visitor with relevant content and advertisement - The service is provided by third party advertisement hubs, which facilitate real-time bidding for advertisers."
+  },
+  "car": {
+    "platform": "ID5",
+    "category": "Marketing",
+    "description": "Used to present the visitor with relevant content and advertisement - The service is provided by third party advertisement hubs, which facilitate real-time bidding for advertisers."
+  },
+  "callback": {
+    "platform": "ID5",
+    "category": "Marketing",
+    "description": "Collects data on visitor behaviour from multiple websites, in order to present more relevant advertisement - This also allows the website to limit the number of times that the visitor is shown the same advertisement."
+  },
+  "cnac": {
+    "platform": "ID5",
+    "category": "Marketing",
+    "description": "Used to present the visitor with relevant content and advertisement - The service is provided by third party advertisement hubs, which facilitate real-time bidding for advertisers."
+  },
+  "cf": {
+    "platform": "ID5",
+    "category": "Marketing",
+    "description": "Sets a unique ID for the visitor, that allows third party advertisers to target the visitor with relevant advertisement. This pairing service is provided by third party advertisement hubs, which facilitates real-time bidding for advertisers."
+  },
+  "gdpr": {
+    "platform": "ID5",
+    "category": "Functional",
+    "description": "Determines whether the visitor has accepted the cookie consent box. This ensures that the cookie consent box will not be presented again upon re-en try."
+  },
+  "UIDR": {
+    "platform": "ComScore",
+    "category": "Marketing",
+    "description": "Collects information of the user and his/her movement, such as timestamp for visits, most recently loaded pages and IP address. The data is used by the marketing research network, Scorecard Research, to analyse traffic patterns and carry out surveys to help their clients better understand the customer's preferences."
+  },
+  "SEUNCY": {
+    "platform": "semasio.net",
+    "category": "Marketing",
+    "description": "Registers a unique ID that identifies the user’s device for return visits."
+  },
+  "OAID": {
+    "platform": "OpenX",
+    "category": "Marketing",
+    "description": "This cookie is used by the ad server software to manage which ads are placed on our website, and to capture clicks on those ads. Information is collected in anonymous form, and we do not use this data to deliver specific content, advertising or otherwise, to your browser."
+  },
+  "ljt_reader": {
+    "platform": "Federated Media Publishing",
+    "category": "Marketing",
+    "description": "Collects data related to reader interests, context, demographics and other information on behalf of the Lijit platform with the purpose of finding interested users on websites with related content."
+  },
+  "rek_content": {
+    "platform": "rekmob.com",
+    "category": "Marketing",
+    "description": "Pending"
+  },
+  "um": {
+    "platform": "Improve Digital",
+    "category": "Marketing",
+    "description": "To enable the bidding process."
+  },
+  "umeh": {
+    "platform": "Improve Digital",
+    "category": "Marketing",
+    "description": "To enable the bidding process."
+  },
+  "BSWtracker": {
+    "platform": "vmg.host",
+    "category": "Marketing",
+    "description": "Collects data on visitor behaviour from multiple websites, in order to present more relevant advertisement - This also allows the website to limit the number of times that the visitor is shown the same advertisement."
+  },
+  "_rxuuid": {
+    "platform": "1rx.io",
+    "category": "Marketing",
+    "description": "Sets a unique ID for the visitor, with which external advertisers can target the visitor with relevant advertisements. This linking service is provided by third-party advertising hubs, facilitating real-time bidding for advertisers."
+  },
+  "AA003": {
+    "platform": "Atlas",
+    "category": "Marketing",
+    "description": "Collects information on visitor behaviour on multiple websites. This information is used on the website, in order to optimize the relevance of advertisement."
+  },
+  "ATN": {
+    "platform": "Atlas",
+    "category": "Marketing",
+    "description": "Collects information on visitor behaviour on multiple websites. This information is used on the website, in order to optimize the relevance of advertisement."
+  },
+  "tt_viewer": {
+    "platform": "Teads",
+    "category": "Marketing",
+    "description": "Teads uses a “tt_viewer” cookie to help personalize the video ads you see on our partner websites."
+  },
+  "cfid": {
+    "platform": "Adobe ColdFusion",
+    "category": "Functional",
+    "description": "This cookie is used to determine which type of device the visitor is using, so the website can be properly formatted"
+  },
+  "cftoken": {
+    "platform": "Adobe ColdFusion",
+    "category": "Functional",
+    "description": "This cookie is used to determine which type of device the visitor is using, so the website can be properly formatted"
+  },
+  "test_cookie": {
+    "platform": "DoubleClick/Google Marketing",
+    "category": "Functional",
+    "description": "This cookie is set by DoubleClick (which is owned by Google) to determine if the website visitor's browser supports cookies."
+  },
+  "gckp": {
+    "platform": "CXense",
+    "category": "Marketing",
+    "description": "Registers a unique ID that identifies a returning user's device. The ID is used for targeted ads."
+  },
+  "um2": {
+    "platform": "Visx.net",
+    "category": "Marketing",
+    "description": "Sets a unique ID for the visitor, that allows third party advertisers to target the visitor with relevant advertisement. This pairing service is provided by third party advertisement hubs, which facilitates real-time bidding for advertisers."
+  },
+  "tuuid_lu": {
+    "platform": "bidswitch.net",
+    "category": "Marketing",
+    "description": "Contains a unique visitor ID, which allows Bidswitch.com to track the visitor across multiple websites. This allows Bidswitch to optimize advertisement relevance and ensure that the visitor does not see the same ads multiple times."
+  },
+  "uu": {
+    "platform": "adscale.de",
+    "category": "Marketing",
+    "description": "Used to target ads by registering the user's movements across websites."
+  },
+  "betweendigital.com": {
+    "platform": "betweendigital.com",
+    "category": "Marketing",
+    "description": "Collects data on visitors' behaviour and interaction - This is used to optimize the website and make advertisement on the website more relevant."
+  },
+  "ss": {
+    "platform": "betweendigital.com",
+    "category": "Functional",
+    "description": "Necessary for the functionality of the website's chat-box function."
+  },
+  "st_csd": {
+    "platform": "seedtag.com",
+    "category": "Marketing",
+    "description": "Date of the last cookie-syn"
+  },
+  "st_cs": {
+    "platform": "seedtag.com",
+    "category": "Marketing",
+    "description": "Unique identifiers of DSPs"
+  },
+  "_gaexp": {
+    "platform": "Google Optimize",
+    "category": "Functional",
+    "description": "Used to determine a user's inclusion in an experiment and the expiry of experiments a user has been included in."
+  },
+  "TestIfCookieP": {
+    "platform": "Smartadserver",
+    "category": "Marketing",
+    "description": "SmartAdServer is a remote ad serving system. Sites and Advertisers are using the system to manage the delivery of their online advertising campaigns. They can collect anonymous statistical data on their visitors to follow the delivery of their campaign and to increase their performance."
+  },
+  "pid": {
+    "platform": "Smartadserver",
+    "category": "Marketing",
+    "description": "SmartAdServer is a remote ad serving system. Sites and Advertisers are using the system to manage the delivery of their online advertising campaigns. They can collect anonymous statistical data on their visitors to follow the delivery of their campaign and to increase their performance."
+  },
+  ".AspNetCore.Antiforgery.": {
+    "platform": "Microsoft",
+    "category": "Functional",
+    "description": "Anti-forgery cookie is a security mechanism to defend against cross-site request forgery (CSRF) attacks."
+  },
+  "unruly_m": {
+    "platform": "Unrulymedia.com",
+    "category": "Marketing",
+    "description": "Pending"
+  },
+  "KRTBCOOKIE_": {
+    "platform": "PubMatic",
+    "category": "Marketing",
+    "description": "Registers a unique ID that identifies the user's device during return visits across websites that use the same ad network. The ID is used to allow targeted ads."
+  },
+  "bdswch": {
+    "platform": "Outbrain",
+    "category": "Marketing",
+    "description": "Used to present the visitor with relevant content and advertisement - The service is provided by third party advertisement hubs, which facilitate real-time bidding for advertisers."
+  },
+  "csync": {
+    "platform": "Smartadserver",
+    "category": "Marketing",
+    "description": "Optimises ad display based on the user's movement combined and various advertiser bids for displaying user ads."
+  },
+  "lidid": {
+    "platform": "liadm.com",
+    "category": "Marketing",
+    "description": "Collects data on visitors' behaviour and interaction - This is used to make advertisement on the website more relevant. The cookie also allows the website to detect any referrals from other websites."
+  },
+  "f5_cspm": {
+    "platform": "F5",
+    "category": "Analytics",
+    "description": "This cookie name is associated with the BIG-IP product suite from company F5. It is used to monitor page load speed, as part of site performance monitoring."
+  },
+  "tluid": {
+    "platform": "3Lift.com",
+    "category": "Marketing",
+    "description": "This cookie is used to identify the visitor and optimize ad-relevance by collecting visitor data from multiple websites – this exchange of visitor data is normally provided by a third-party data-center or ad-exchange."
+  },
+  "t_gid": {
+    "platform": "Taboola",
+    "category": "Marketing",
+    "description": "This cookie gives a user who interacts with Taboola Widget a User ID allowing us to target advertisements and content to this specific user ID."
+  },
+  "__zlcmid": {
+    "platform": "Zopim",
+    "category": "Marketing",
+    "description": "Live chat widget on Slack contact page (ZopIM)"
+  },
+  "i": {
+    "platform": "openx.net",
+    "category": "Marketing",
+    "description": "Registers user data, such as IP address, geographical location, websites visited and on which advertisements the user has clicked, with the aim of optimizing the display of advertisements based on user relocation on websites that use the same advertising network."
+  },
+  "dpm": {
+    "platform": "demdex.net",
+    "category": "Marketing",
+    "description": "Pending"
+  },
+  "__atuvc": {
+    "platform": "AddThis",
+    "category": "Functional",
+    "description": "This cookie is associated with the AddThis social sharing widget, it stores an updated page share count."
+  },
+  "__atuvs": {
+    "platform": "AddThis",
+    "category": "Functional",
+    "description": "This cookie is associated with the AddThis social sharing widget, which serves a similar purpose to other cookies set by the service."
+  },
+  "ssc": {
+    "platform": "AddThis",
+    "category": "Functional",
+    "description": "AddThis - Cookie related to an AddThis sharing button available on the website"
+  },
+  "uvc": {
+    "platform": "AddThis",
+    "category": "Functional",
+    "description": "AddThis - Cookie related to an AddThis sharing button available on the website"
+  },
+  "loc": {
+    "platform": "AddThis",
+    "category": "Functional",
+    "description": "AddThis - Cookie related to an AddThis sharing button available on the website"
+  },
+  "na_id": {
+    "platform": "AddThis",
+    "category": "Functional",
+    "description": "AddThis - Cookie related to an AddThis sharing button available on the website"
+  },
+  "na_tc": {
+    "platform": "AddThis",
+    "category": "Functional",
+    "description": "AddThis - Cookie related to an AddThis sharing button available on the website"
+  },
+  "ouid": {
+    "platform": "AddThis",
+    "category": "Functional",
+    "description": "AddThis - Cookie related to an AddThis sharing button available on the website"
+  },
+  "DG_HID": {
+    "platform": "Funda",
+    "category": "Marketing",
+    "description": "Pending"
+  },
+  "DG_IID": {
+    "platform": "Funda",
+    "category": "Marketing",
+    "description": "Pending"
+  },
+  "DG_SID": {
+    "platform": "Funda",
+    "category": "Marketing",
+    "description": "Pending"
+  },
+  "DG_UID": {
+    "platform": "Funda",
+    "category": "Marketing",
+    "description": "Pending"
+  },
+  "DG_ZID": {
+    "platform": "Funda",
+    "category": "Marketing",
+    "description": "Pending"
+  },
+  "DG_ZUID": {
+    "platform": "Funda",
+    "category": "Marketing",
+    "description": "Pending"
+  },
+  "fonts-loaded": {
+    "platform": "Funda",
+    "category": "Functional",
+    "description": "This cookie checks and remembers whether you have the font used by funda. Remembering this check makes visiting the website faster."
+  },
+  "html-classes": {
+    "platform": "Funda",
+    "category": "Functional",
+    "description": "Remembering how the website is displayed to adjust the appearance of the site to the environment and browser used by the user. This ensures that the site loads faster on a subsequent visit."
+  },
+  "SNLB2": {
+    "platform": "Funda",
+    "category": "Functional",
+    "description": "Pending"
+  },
+  "lz_last_visit": {
+    "platform": "LiveZilla GmbH",
+    "category": "Functional",
+    "description": "Last Visit (Timestamp), used to determine when the website visitor browsed the website the last time."
+  },
+  "lz_userid": {
+    "platform": "LiveZilla GmbH",
+    "category": "Functional",
+    "description": "Sets up a unique ID which is used to generate statistical data about the website visitor's usage of the website."
+  },
+  "lz_visits": {
+    "platform": "LiveZilla GmbH",
+    "category": "Functional",
+    "description": "Number of visits, is used to identify how often the website visitor already visited the website."
+  },
+  ".secureclient": {
+    "platform": "AFAS",
+    "category": "Functional",
+    "description": "Pending"
+  },
+  ".securesession": {
+    "platform": "AFAS",
+    "category": "Functional",
+    "description": "Pending"
+  },
+  ".stateflags": {
+    "platform": "AFAS",
+    "category": "Functional",
+    "description": "Pending"
+  },
+  ".auth": {
+    "platform": "AFAS",
+    "category": "Functional",
+    "description": "Pending"
+  },
+  "advst_uid_11": {
+    "platform": "Adxcore",
+    "category": "Marketing",
+    "description": "Pending"
+  },
+  "DISPATCHER": {
+    "platform": "Adxcore",
+    "category": "Marketing",
+    "description": "Pending"
+  },
+  "DSP_UID": {
+    "platform": "Fidelity-media.com",
+    "category": "Marketing",
+    "description": "Pending"
+  },
+  "picreel_tracker__visited": {
+    "platform": "Picreel",
+    "category": "Analytics",
+    "description": "Used for statistical purposes when counting the number of pages, the user visited"
+  },
+  "picreel_tracker__first_visit": {
+    "platform": "Picreel",
+    "category": "Analytics",
+    "description": "Used for statistical purposes, keeping the date of the first visit"
+  },
+  "picreel_tracker__page_views": {
+    "platform": "Picreel",
+    "category": "Analytics",
+    "description": "Pending"
+  },
+  "picreel_new_price": {
+    "platform": "Picreel",
+    "category": "Analytics",
+    "description": "Pending"
+  },
+  "__auc": {
+    "platform": "Trustpilot",
+    "category": "Analytics",
+    "description": "Used to track and report information to the Alexa analytics"
+  },
+  "ajs_user_id": {
+    "platform": "Trustpilot",
+    "category": "Analytics",
+    "description": " This cookie helps track visitor usage, events, target marketing, and can also measure application performance and stability."
+  },
+  "ajs_anonymous_id": {
+    "platform": "Trustpilot",
+    "category": "Analytics",
+    "description": "Used for Analytics and help count how many people visit a certain site by tracking if you have visited before"
+  },
+  "ajs_group_id": {
+    "platform": "Trustpilot",
+    "category": "Analytics",
+    "description": "Track visitor usage and events within the website"
+  },
+  "1P_JAR": {
+    "platform": "Google",
+    "category": "Marketing",
+    "description": "These cookies are set via embedded youtube-videos. They register anonymous statistical data on for example how many times the video is displayed and what settings are used for playback."
+  },
+  "CONSENT": {
+    "platform": "Google",
+    "category": "Functional",
+    "description": "Google cookie consent tracker"
+  },
+  "ads_prefs": {
+    "platform": "Twitter",
+    "category": "Marketing",
+    "description": "These cookies enable us to track visitor activity from our Twitter ads on our website, and also to allow users to share content from our websites. They cookies do not provide us with any confidential information relating to your account."
+  },
+  "auth_token": {
+    "platform": "Twitter",
+    "category": "Marketing",
+    "description": "These cookies enable us to track visitor activity from our Twitter ads on our website, and also to allow users to share content from our websites. They cookies do not provide us with any confidential information relating to your account."
+  },
+  "csrf_same_site": {
+    "platform": "Twitter",
+    "category": "Marketing",
+    "description": "These cookies enable us to track visitor activity from our Twitter ads on our website, and also to allow users to share content from our websites. They cookies do not provide us with any confidential information relating to your account."
+  },
+  "csrf_same_site_set": {
+    "platform": "Twitter",
+    "category": "Marketing",
+    "description": "These cookies enable us to track visitor activity from our Twitter ads on our website, and also to allow users to share content from our websites. They cookies do not provide us with any confidential information relating to your account."
+  },
+  "dnt": {
+    "platform": "Twitter",
+    "category": "Marketing",
+    "description": "These are third party Twitter cookies. These cookies enable users, if they wish, to login to their Twitter account share content from our websites with their friends. These cookies do not allow us access to your accounts or provide us with any confidential information relating to your accounts. These cookies also allow a news feed of tweets to appear on the website."
+  },
+  "eu_cn": {
+    "platform": "Twitter",
+    "category": "Marketing",
+    "description": "These are third party Twitter cookies. These cookies enable users, if they wish, to login to their Twitter account share content from our websites with their friends. These cookies do not allow us access to your accounts or provide us with any confidential information relating to your accounts. These cookies also allow a news feed of tweets to appear on the website."
+  },
+  "external_referer": {
+    "platform": "Twitter",
+    "category": "Marketing",
+    "description": "Our Website uses Twitter buttons to allow our visitors to follow our promotional Twitter feeds, and sometimes embed feeds on our Website."
+  },
+  "kdt": {
+    "platform": "Twitter",
+    "category": "Marketing",
+    "description": "These are third party Twitter cookies. These cookies enable users, if they wish, to login to their Twitter account share content from our websites with their friends. These cookies do not allow us access to your accounts or provide us with any confidential information relating to your accounts. These cookies also allow a news feed of tweets to appear on the website."
+  },
+  "remember_checked_on": {
+    "platform": "Twitter",
+    "category": "Marketing",
+    "description": "These cookies enable us to track visitor activity from our Twitter ads on our website, and also to allow users to share content from our websites. These cookies do not provide us with any confidential information relating to your account."
+  },
+  "rweb_optin": {
+    "platform": "Twitter",
+    "category": "Marketing",
+    "description": "These cookies enable us to track visitor activity from our Twitter ads on our website, and also to allow users to share content from our websites. These cookies do not provide us with any confidential information relating to your account."
+  },
+  "syndication_guest_id": {
+    "platform": "Twitter",
+    "category": "Marketing",
+    "description": "Used to collect information about users browsing behaviour for marketing purposes including digital display and social media advertising."
+  },
+  "twid": {
+    "platform": "Twitter",
+    "category": "Marketing",
+    "description": "These cookies enable us to track visitor activity from our Twitter ads on our website, and also to allow users to share content from our websites. They cookies do not provide us with any confidential information relating to your account."
+  },
+  "tfw_exp": {
+    "platform": "Twitter",
+    "category": "Marketing",
+    "description": "These cookies enable us to track visitor activity from our Twitter ads on our website, and also to allow users to share content from our websites. They cookies do not provide us with any confidential information relating to your account."
+  },
+  "__asc": {
+    "platform": "Trustpilot",
+    "category": "Analytics",
+    "description": "A cookie set by Trustpilot if you click the read more widget"
+  },
+  "__insp_norec_sess": {
+    "platform": "Inspectlet",
+    "category": "Analytics",
+    "description": "Inspectlet uses cookies to keep track of session information. These cookies are needed to accurately understand how visitors are navigating the website."
+  },
+  "__insp_slim": {
+    "platform": "Inspectlet",
+    "category": "Analytics",
+    "description": "Inspectlet uses cookies to keep track of session information. These cookies are needed to accurately understand how visitors are navigating the website."
+  },
+  "__insp_targlpt": {
+    "platform": "Inspectlet",
+    "category": "Analytics",
+    "description": "Inspectlet uses cookies to keep track of session information. These cookies are needed to accurately understand how visitors are navigating the website."
+  },
+  "__insp_targlpu": {
+    "platform": "Inspectlet",
+    "category": "Analytics",
+    "description": "Inspectlet uses cookies to keep track of session information. These cookies are needed to accurately understand how visitors are navigating the website."
+  },
+  "__RequestVerificationToken": {
+    "platform": "Microsoft",
+    "category": "Functional",
+    "description": "This is an anti-forgery cookie set by web applications built using ASP.NET MVC technologies. It is designed to stop unauthorised posting of content to a website, known as Cross-Site Request Forgery."
+  },
+  "__stid": {
+    "platform": "ShareThis",
+    "category": "Analytics",
+    "description": "The __stid cookie is set as part of the ShareThis service and monitors user-activity, e.g. Web pages viewed, navigation from page to page, time spent on each page etc."
+  },
+  "__uin_mm": {
+    "platform": "Sonobi",
+    "category": "Marketing",
+    "description": "These cookies are used to deliver adverts more relevant to you and your interests. They are also used to limit the number of times you see an advertisement as well as help measure the effectiveness of the advertising campaign."
+  },
+  "__uir_mm": {
+    "platform": "Sonobi",
+    "category": "Marketing",
+    "description": "These cookies are used to deliver adverts more relevant to you and your interests. They are also used to limit the number of times you see an advertisement as well as help measure the effectiveness of the advertising campaign."
+  },
+  "_cc_aud": {
+    "platform": "Lotame",
+    "category": "Marketing",
+    "description": "Collects anonymous statistical data related to the user's website visits, such as the number of visits, average time spent on the website and what pages have been loaded. The purpose is to segment the website's users according to factors such as demographics and geographical location, in order to enable media and marketing agencies to structure and understand their target groups to enable customised online advertising. "
+  },
+  "_cc_cc": {
+    "platform": "Lotame",
+    "category": "Marketing",
+    "description": "Collects anonymous statistical data related to the user's website visits, such as the number of visits, average time spent on the website and what pages have been loaded. The purpose is to segment the website's users according to factors such as demographics and geographical location, in order to enable media and marketing agencies to structure and understand their target groups to enable customised online advertising. "
+  },
+  "_cc_id": {
+    "platform": "Lotame",
+    "category": "Marketing",
+    "description": "Collects anonymous statistical data related to the user's website visits, such as the number of visits, average time spent on the website and what pages have been loaded. The purpose is to segment the website's users according to factors such as demographics and geographical location, in order to enable media and marketing agencies to structure and understand their target groups to enable customised online advertising."
+  },
+  "ab": {
+    "platform": "Neustar",
+    "category": "Marketing",
+    "description": "This cookie is used by the website’s operator in context with multi-variate testing. This is a tool used to combine or change content on the website. This allows the website to find the best variation/edition of the site."
+  },
+  "bkdc": {
+    "platform": "BlueKai",
+    "category": "Marketing",
+    "description": "Registers anonymised user data, such as IP address, geographical location, visited websites, and what ads the user has clicked, with the purpose of optimising ad display based on the user's movement on websites that use the same ad network."
+  },
+  "bku": {
+    "platform": "BlueKai",
+    "category": "Marketing",
+    "description": "Registers anonymised user data, such as IP address, geographical location, visited websites, and what ads the user has clicked, with the purpose of optimising ad display based on the user's movement on websites that use the same ad network."
+  },
+  "everest_g_v2": {
+    "platform": "Everest Technologies",
+    "category": "Marketing",
+    "description": "Created after a user initially clicks a client's ad, and used to map the current and subsequent clicks with other events on the client's website"
+  },
+  "mt_misc": {
+    "platform": "MediaMath",
+    "category": "Marketing",
+    "description": "MediaMath uses this cookie to hold attributes about the browser for fraud prevention and other technical optimizations."
+  },
+  "mt_mop": {
+    "platform": "MediaMath",
+    "category": "Marketing",
+    "description": "MediaMath uses this cookie to synchronize the visitor ID with a limited number of trusted exchanges and data partners"
+  },
+  "pl_user_id": {
+    "platform": "PowerLinks",
+    "category": "Marketing",
+    "description": "This cookie registers data on the visitor. The information is used to optimize advertisement relevance."
+  },
+  "pxrc": {
+    "platform": "Rapleaf",
+    "category": "Marketing",
+    "description": "This cookie registers non-personal data on the visitor. The information is used to optimize advertisement relevance."
+  },
+  "rlas3": {
+    "platform": "Rapleaf",
+    "category": "Marketing",
+    "description": "Collects anonymous data related to the user's visits to the website, such as the number of visits, average time spent on the website and what pages have been loaded, with the purpose of displaying targeted ads."
+  },
+  "TapAd_DID": {
+    "platform": "Tapad",
+    "category": "Marketing",
+    "description": "Used to determine what type of devices (smartphones, tablets, computers, TVs etc.) is used by a user."
+  },
+  "TapAd_TS": {
+    "platform": "Tapad",
+    "category": "Marketing",
+    "description": "Used to determine what type of devices (smartphones, tablets, computers, TVs etc.) is used by a user."
+  },
+  "TDCPM": {
+    "platform": "The Tradedesk",
+    "category": "Marketing",
+    "description": "Registers a unique ID that identifies a returning user's device. The ID is used for targeted ads."
+  },
+  "TDID": {
+    "platform": "The Tradedesk",
+    "category": "Marketing",
+    "description": "Registers a unique ID that identifies a returning user's device. The ID is used for targeted ads."
+  },
+  "uid-bp-": {
+    "platform": "FreeWheel",
+    "category": "Marketing",
+    "description": "Pending"
+  },
+  "uuidc": {
+    "platform": "MediaMath",
+    "category": "Marketing",
+    "description": "Collects data on the user's visits to the website, such as what pages have been loaded. The registered data is used for targeted ads."
+  },
+  "zc": {
+    "platform": "Zeotap",
+    "category": "Marketing",
+    "description": "Registers data on visitors from multiple visits and on multiple websites. This information is used to measure the efficiency of advertisement on websites."
+  },
+  "amplitude_id": {
+    "platform": "Trustpilot",
+    "category": "Marketing",
+    "description": "These cookies are used by the TrustPilot service to identify you and enable you to leave reviews of our products and services."
+  },
+  "csrf-canary": {
+    "platform": "Trustpilot",
+    "category": "Functional",
+    "description": "These cookies are used by the TrustPilot service to identify you and enable you to leave reviews of our products and services. "
+  },
+  "3pi": {
+    "platform": "ID5",
+    "category": "Marketing",
+    "description": "Sets a unique ID for the visitor, that allows third party advertisers to target the visitor with relevant advertisement. This pairing service is provided by third party advertisement hubs, which facilitates real-time bidding for advertisers."
+  },
+  "am-uid": {
+    "platform": "Admixer",
+    "category": "Marketing",
+    "description": "This cookie is used to identify the visitor and optimize ad-relevance by collecting visitor data from multiple websites – this exchange of visitor data is normally provided by a third-party data-center or ad-exchange."
+  },
+  "_cc_dc": {
+    "platform": "Lotame",
+    "category": "Marketing",
+    "description": "Collects anonymous statistical data related to the user's website visits, such as the number of visits, average time spent on the website and what pages have been loaded. The purpose is to segment the website's users according to factors such as demographics and geographical location, in order to enable media and marketing agencies to structure and understand their target groups to enable customised online advertising."
+  },
+  "bkpa": {
+    "platform": "BlueKai",
+    "category": "Marketing",
+    "description": "Used to present the visitor with relevant content and advertisement - The service is provided by third party advertisement hubs, which facilitate real-time bidding for advertisers."
+  },
+  "_ljtrtb_": {
+    "platform": "SOVRN",
+    "category": "Marketing",
+    "description": "These cookies are used temporarily when multiple partners pass us their ID simultaneously. To avoid technical conflicts that arise from accessing the ljtrtb cookie for multiple partners at the same time, we store each partner’s ID in a separate cookie and then consolidate these IDs into the ljtrtb cookie when it’s available."
+  },
+  "ljtrtb": {
+    "platform": "SOVRN",
+    "category": "Marketing",
+    "description": "Enables us to help our advertising partners make decisions about displaying an advertisement to you. We store the ID that each partner uses to identify you and pass that information to the partner when a website requests an advertisement from us."
+  },
+  "uuid": {
+    "platform": "Mediamath",
+    "category": "Marketing",
+    "description": "Collects data on the user's visits to the website, such as what pages have been loaded. The registered data is used for targeted ads."
+  },
+  "_pinterest_cm": {
+    "platform": "Pinterest",
+    "category": "Functional",
+    "description": "Pinterest cookie ensures that you can share our website pages via Pinterest by means of the 'share' button"
+  },
+  "_pinterest_sess": {
+    "platform": "Pinterest",
+    "category": "Functional",
+    "description": "session cookie (expires after your session) which collects anonymous data about a user's visit to the website, such as the number of visits, average time spent on the site and which pages have been loaded in order to personalise and improve the Pinterest service."
+  },
+  "_pin_unauth": {
+    "platform": "Pinterest",
+    "category": "Marketing",
+    "description": "Registers a unique ID that identifies and recognizes the user. Is used for targeted advertising."
+  },
+  "_pinterest_ct_ua": {
+    "platform": "Pinterest",
+    "category": "Marketing",
+    "description": "This cookieis a third party cookie which groups actions for users who cannot be identified by Pinterest."
+  },
+  "sessionFunnelEventLogged": {
+    "platform": "Pinterest",
+    "category": "Marketing",
+    "description": "A generic technical cookie used for storing user session identifier in web applications"
+  },
+  "_routing_id": {
+    "platform": "Pinterest",
+    "category": "Marketing",
+    "description": "Allows users to share pictures via Pinterest / the Pin It button. Pinterest can collect statistical information about usage of their service."
+  },
+  "Nop.customer": {
+    "platform": "nopCommerce",
+    "category": "Functional",
+    "description": "Customer cookie. Used to identifier guest customers."
+  },
+  "NopCommerce.RecentlyViewedProducts": {
+    "platform": "nopCommerce",
+    "category": "Functional",
+    "description": "Recently viewed products cookie. Stores a list of the recently viewed products"
+  },
+  "NOPCOMMERCE.AUTH": {
+    "platform": "nopCommerce",
+    "category": "Functional",
+    "description": "Forms authentication cookie. Used for authenticating registered customers."
+  },
+  "tsrvid": {
+    "platform": "FeedbackCompany",
+    "category": "Functional",
+    "description": "Feedback company review cookie"
+  },
+  "SEARCH_SAMESITE": {
+    "platform": "Google",
+    "category": "Functional",
+    "description": "SameSite prevents the browser from sending this cookie along with cross-site requests. The main goal is mitigate the risk of cross-origin information leakage. It also provides some protection against cross-site request forgery attacks."
+  },
+  "AID": {
+    "platform": "Google",
+    "category": "Marketing",
+    "description": "Download certain Google Tools and save certain preferences, for example the number of search results per page or activation of the SafeSearch Filter. Adjusts the ads that appear in Google Search."
+  },
+  "SID": {
+    "platform": "Google",
+    "category": "Marketing",
+    "description": "Download certain Google Tools and save certain preferences, for example the number of search results per page or activation of the SafeSearch Filter. Adjusts the ads that appear in Google Search."
+  },
+  "HSID": {
+    "platform": "Google",
+    "category": "Marketing",
+    "description": "Download certain Google Tools and save certain preferences, for example the number of search results per page or activation of the SafeSearch Filter. Adjusts the ads that appear in Google Search."
+  },
+  "APISID": {
+    "platform": "Google",
+    "category": "Marketing",
+    "description": "Download certain Google Tools and save certain preferences, for example the number of search results per page or activation of the SafeSearch Filter. Adjusts the ads that appear in Google Search."
+  },
+  "SAPISID": {
+    "platform": "Google",
+    "category": "Marketing",
+    "description": "Download certain Google Tools and save certain preferences, for example the number of search results per page or activation of the SafeSearch Filter. Adjusts the ads that appear in Google Search."
+  },
+  "SSID": {
+    "platform": "Google",
+    "category": "Marketing",
+    "description": "Download certain Google Tools and save certain preferences, for example the number of search results per page or activation of the SafeSearch Filter. Adjusts the ads that appear in Google Search."
+  },
+  "SIDCC": {
+    "platform": "Google",
+    "category": "Marketing",
+    "description": "Download certain Google Tools and save certain preferences, for example the number of search results per page or activation of the SafeSearch Filter. Adjusts the ads that appear in Google Search."
+  },
+  "OTZ": {
+    "platform": "Google",
+    "category": "Marketing",
+    "description": "Aggregate analysis of website visitors"
+  },
+  "ANID": {
+    "platform": "Google",
+    "category": "Marketing",
+    "description": "Google uses this cookies to make advertising more engaging to users and more valuable to publishers and advertisers"
+  },
+  "DV": {
+    "platform": "Google",
+    "category": "Marketing",
+    "description": "This cookies is used to collect website statistics and track conversion rates and Google ad personalisation"
+  },
+  "NID": {
+    "platform": "Google",
+    "category": "Marketing",
+    "description": "This cookies is used to collect website statistics and track conversion rates and Google ad personalisation"
+  },
+  "form_key": {
+    "platform": "Magento",
+    "category": "Functional",
+    "description": "A security measure that appends a random string to all form submissions to protect the data from Cross-Site Request Forgery (CSRF)."
+  },
+  "mage-cache-sessid": {
+    "platform": "Magento",
+    "category": "Functional",
+    "description": "The value of this cookie triggers the cleanup of local cache storage. When the cookie is removed by the backend application, the Admin cleans up local storage, and sets the cookie value to true."
+  },
+  "mage-cache-storage": {
+    "platform": "Magento",
+    "category": "Functional",
+    "description": "Local storage of visitor-specific content that enables ecommerce functions."
+  },
+  "mage-cache-storage-section-invalidation": {
+    "platform": "Magento",
+    "category": "Functional",
+    "description": "Forces local storage of specific content sections that should be invalidated."
+  },
+  "mage-messages": {
+    "platform": "Magento",
+    "category": "Functional",
+    "description": "Tracks error messages and other notifications that are shown to the user, such as the cookie consent message, and various error messages. The message is deleted from the cookie after it is shown to the shopper."
+  },
+  "mage-translation-file-version": {
+    "platform": "Magento",
+    "category": "Functional",
+    "description": "Tracks the version of translations in local storage. Used when Translation Strategy is configured as Dictionary (Translation on Storefront side)."
+  },
+  "mage-translation-storage": {
+    "platform": "Magento",
+    "category": "Functional",
+    "description": "Stores translated content when requested by the shopper. Used when Translation Strategy is configured as Dictionary (Translation on Storefront side)."
+  },
+  "product_data_storage": {
+    "platform": "Magento",
+    "category": "Functional",
+    "description": "Stores configuration for product data related to Recently Viewed / Compared Products."
+  },
+  "recently_compared_product": {
+    "platform": "Magento",
+    "category": "Functional",
+    "description": "Stores product IDs of recently compared products."
+  },
+  "recently_compared_product_previous": {
+    "platform": "Magento",
+    "category": "Functional",
+    "description": "Stores product IDs of previously compared products for easy navigation."
+  },
+  "recently_viewed_product": {
+    "platform": "Magento",
+    "category": "Functional",
+    "description": "Stores product IDs of recently viewed products for easy navigation."
+  },
+  "recently_viewed_product_previous": {
+    "platform": "Magento",
+    "category": "Functional",
+    "description": "Stores product IDs of recently previously viewed products for easy navigation."
+  },
+  "user_allowed_save_cookie": {
+    "platform": "Magento",
+    "category": "Functional",
+    "description": "Indicates if a customer is allowed to use cookies."
+  },
+  "external_no_cache": {
+    "platform": "Magento",
+    "category": "Functional",
+    "description": "A flag that indicates if caching is disabled."
+  },
+  "persistent_shopping_cart": {
+    "platform": "Magento",
+    "category": "Functional",
+    "description": "Stores the key (ID) of persistent cart to make it possible to restore the cart for an anonymous shopper."
+  },
+  "stf": {
+    "platform": "Magento",
+    "category": "Functional",
+    "description": "Records the time messages are sent by the SendFriend (Email a Friend) module."
+  },
+  "pollN": {
+    "platform": "Magento",
+    "category": "Functional",
+    "description": "A poll ID that indicates if a vote has occurred."
+  },
+  "frontend": {
+    "platform": "Magento",
+    "category": "Functional",
+    "description": "Session ID"
+  },
+  "guest-view": {
+    "platform": "Magento",
+    "category": "Functional",
+    "description": "Allows guests to edit their orders."
+  },
+  "mage-banners-cache-storage": {
+    "platform": "Magento",
+    "category": "Functional",
+    "description": "Stores banner content locally to improve performance."
+  },
+  "searchReport-log": {
+    "platform": "Magento",
+    "category": "Functional",
+    "description": "Magento, used to log information about searching"
+  },
+  "private_content_version": {
+    "platform": "Magento",
+    "category": "Functional",
+    "description": "Appends a random, unique number and time to pages with customer content to prevent them from being cached on the server."
+  },
+  "X-Magento-Vary": {
+    "platform": "Magento",
+    "category": "Functional",
+    "description": "X-Magento-Vary cookie is used by Magento 2 system to highlight that version of a page requested by a user has been changed. It allows having different versions of the same page stored in cache e.g. Varnish."
+  },
+  "section_data_ids": {
+    "platform": "Magento",
+    "category": "Functional",
+    "description": "Stores customer-specific information related to shopper-initiated actions such as display wish list, checkout information, etc."
+  },
+  "dsps:": {
+    "platform": "PowerLinks Media Limited",
+    "category": "Marketing",
+    "description": "Service to display targeted advertising to visitors."
+  },
+  "TapAd_3WAY_SYNCS": {
+    "platform": "Tapad",
+    "category": "Marketing",
+    "description": "Pending"
+  },
+  "_mb": {
+    "platform": "Vuble",
+    "category": "Marketing",
+    "description": "Used in context with video-advertisement. The cookie limits the number of times a visitor is shown the same advertisement-content. The cookie is also used to ensure relevance of the video-advertisement to the specific visitor."
+  },
+  "wordpress_test_cookie": {
+    "platform": "Wordpress",
+    "category": "Functional",
+    "description": "Cookie set by WordPress to check if the cookies are enabled on the browser to provide appropriate user experience to the users"
+  },
+  "componentType": {
+    "platform": "Joomla!",
+    "category": "Functional",
+    "description": "componentType is a session cookie, used for correct recording the type of the page (frontpage, single page, blog etc)"
+  },
+  "componentStyle": {
+    "platform": "Joomla!",
+    "category": "Functional",
+    "description": "componentStyle is a session cookie, used for setting the proper template in compliance with visited type of the page"
+  },
+  "nrid": {
+    "platform": "Joomla! Engagebox",
+    "category": "Functional",
+    "description": "This cookie is used to remember a user's choice about cookies on the website. Where users have previously indicated a preference, that user’s preference will be stored in this cookie."
+  },
+  "sat_track": {
+    "platform": "Adobe Analytics",
+    "category": "Functional",
+    "description": "The sat_track cookie is a part of Adobe Analytics. It controls the enabling and disabling of cookies and whether they are loaded onto the site."
+  },
+  "cookieconsent_status": {
+    "platform": "Osano",
+    "category": "Functional",
+    "description": "This cookie is used to remember if you have consented to the use of cookies on this website."
+  },
+  "cookieconsent_page": {
+    "platform": "Osano",
+    "category": "Functional",
+    "description": "Page where the user complies to the cookie consent"
+  },
+  "koitk": {
+    "platform": "Sharpspring",
+    "category": "Marketing",
+    "description": "Collects data on visitors behavior and interaction - This is used to optimize the website and make advertisement on the website more relevant."
+  },
+  "__ss_referrer": {
+    "platform": "Sharpspring",
+    "category": "Marketing",
+    "description": "This cookie contains information about where the visitor came from, called the source for the visit."
+  },
+  "__ss_tk": {
+    "platform": "Sharpspring",
+    "category": "Marketing",
+    "description": "This is Sharspring’s token cookie which enables user tracking. It ensures that the visit to website is connected to the user independent of the session and the source."
+  },
+  "__ss": {
+    "platform": "Sharpspring",
+    "category": "Marketing",
+    "description": "This cookie is storing the session ID for your visit. It is used in combination with _ss_tk to group website visits in reports for a single user."
+  },
+  "_pk_id": {
+    "platform": "Matomo",
+    "category": "Analytics",
+    "description": "Used to store a few details about the user such as the unique visitor ID"
+  },
+  "_pk_ref": {
+    "platform": "Matomo",
+    "category": "Analytics",
+    "description": "Used to store the attribution information, the referrer initially used to visit the website"
+  },
+  "_pk_ses": {
+    "platform": "Matomo",
+    "category": "Analytics",
+    "description": "Short lived cookies used to temporarily store data for the visit"
+  },
+  "_pk_cvar": {
+    "platform": "Matomo",
+    "category": "Analytics",
+    "description": "Short lived cookies used to temporarily store data for the visit"
+  },
+  "_pk_hsr": {
+    "platform": "Matomo",
+    "category": "Analytics",
+    "description": "Short lived cookies used to temporarily store data for the visit"
+  },
+  "_pk_testcookie": {
+    "platform": "Matomo",
+    "category": "Analytics",
+    "description": "Cookie is created and should be then directly deleted (used to check whether the visitor’s browser supports cookies)"
+  },
+  "mtm_consent": {
+    "platform": "Matomo",
+    "category": "Analytics",
+    "description": "Cookie is created with no expiry date to forever remember that consent was given by the user."
+  },
+  "_wepublishGa": {
+    "platform": "WePublish",
+    "category": "Analytics",
+    "description": "ID used to identify users"
+  },
+  "_wepublishGa_gid": {
+    "platform": "WePublish",
+    "category": "Analytics",
+    "description": "ID used to identify users for 24 hours after last activity 24 hours"
+  },
+  "OptanonConsent": {
+    "platform": "OneTrust",
+    "category": "Functional",
+    "description": "This cookie is set by the cookie compliance solution from OneTrust. It stores information about the categories of cookies the site uses and whether visitors have given or withdrawn consent for the use of each category. This enables site owners to prevent cookies in each category from being set in the user’s browser, when consent is not given. The cookie has a normal lifespan of one year, so that returning visitors to the site will have their preferences remembered. It contains no information that can identify the site visitor."
+  },
+  "optimizelyEndUserId": {
+    "platform": "Optimizely",
+    "category": "Marketing",
+    "description": "Stores a visitor's unique Optimizely identifier. It's a combination of a timestamp and random number. No other information about you or your visitors is stored inside."
+  },
+  "optimizelyRedirectData": {
+    "platform": "Optimizely",
+    "category": "Marketing",
+    "description": "After Optimizely has executed a redirect experiment, stores various data from the original page so that Optimizely still has access to it on the new page."
+  },
+  "optimizelyDomainTestCookie": {
+    "platform": "Optimizely",
+    "category": "Marketing",
+    "description": "When Optimizely loads a URL, the snippet places the cookie to get the current domain, for the purpose of whether cross-domain syncing is possible. If successful, the cookie is immediately removed. "
+  },
+  "optimizelyOptOut": {
+    "platform": "Optimizely",
+    "category": "Marketing",
+    "description": "Stores a boolean indicating whether the visitor has opted out of participating in Optimizely-powered experimentation."
+  },
+  "wwwchannelme_z_sid": {
+    "platform": "Channel.me",
+    "category": "Functional",
+    "description": "The cookie is used when using the co-browsing feature."
+  },
+  "app_ts": {
+    "platform": "Ortec",
+    "category": "Marketing",
+    "description": "Used by adscience.nl to display remarketing campaigns."
+  },
+  "viewer": {
+    "platform": "Ortec",
+    "category": "Marketing",
+    "description": "Used by adscience.nl to measure visitor numbers and information and use it to optimize marketing campaigns."
+  },
+  "spx_ts": {
+    "platform": "Ortec",
+    "category": "Marketing",
+    "description": "These cookies ensure that relevant advertisements are displayed on external websites."
+  },
+  "adx_ts": {
+    "platform": "Ortec",
+    "category": "Marketing",
+    "description": "These cookies ensure that relevant advertisements are displayed on external websites."
+  },
+  "id_ts": {
+    "platform": "Ortec",
+    "category": "Marketing",
+    "description": "These cookies ensure that relevant advertisements are displayed on external websites."
+  },
+  "euconsent": {
+    "platform": "LiveRamp",
+    "category": "Marketing",
+    "description": "Cookie compliance check"
+  },
+  "SSR-caching": {
+    "platform": "Wix.com",
+    "category": "Functional",
+    "description": "Indicates how a site was rendered"
+  },
+  "smSession": {
+    "platform": "Wix.com",
+    "category": "Functional",
+    "description": "Identifies logged in site members"
+  },
+  "svSession": {
+    "platform": "Wix.com",
+    "category": "Marketing",
+    "description": "Identifies unique visitors and tracks a visitor’s sessions on a site"
+  },
+  "ForceFlashSite": {
+    "platform": "Wix.com",
+    "category": "Functional",
+    "description": "When viewing a mobile site (old mobile under m.domain.com) it will force the server to display the non-mobile version and avoid redirecting to the mobile site"
+  },
+  "hs": {
+    "platform": "Wix.com",
+    "category": "Functional",
+    "description": "Security"
+  },
+  "bSession": {
+    "platform": "Wix.com",
+    "category": "Functional",
+    "description": "Used for system effectiveness measurement"
+  },
+  "TS01": {
+    "platform": "Wix.com",
+    "category": "Functional",
+    "description": "Used for security and anti-fraud reasons"
+  },
+  "_ab": {
+    "platform": "Shopify.com",
+    "category": "Functional",
+    "description": "Used in connection with access to admin."
+  },
+  "_secure_session_id": {
+    "platform": "Shopify.com",
+    "category": "Functional",
+    "description": "Used in connection with navigation through a storefront."
+  },
+  "Cart": {
+    "platform": "Shopify.com",
+    "category": "Functional",
+    "description": "Used in connection with shopping cart."
+  },
+  "cart_sig": {
+    "platform": "Shopify.com",
+    "category": "Functional",
+    "description": "Used in connection with shopping cart."
+  },
+  "cart_ts": {
+    "platform": "Shopify.com",
+    "category": "Functional",
+    "description": "Used in connection with checkout."
+  },
+  "checkout_token": {
+    "platform": "Shopify.com",
+    "category": "Functional",
+    "description": "Used in connection with checkout."
+  },
+  "Secret": {
+    "platform": "Shopify.com",
+    "category": "Functional",
+    "description": "Used in connection with checkout."
+  },
+  "Secure_customer_sig": {
+    "platform": "Shopify.com",
+    "category": "Functional",
+    "description": "Used in connection with customer login."
+  },
+  "storefront_digest": {
+    "platform": "Shopify.com",
+    "category": "Functional",
+    "description": "Used in connection with customer login."
+  },
+  "_shopify_u": {
+    "platform": "Shopify.com",
+    "category": "Functional",
+    "description": "Used to facilitate updating customer account information."
+  },
+  "_tracking_consent": {
+    "platform": "Shopify.com",
+    "category": "Marketing",
+    "description": "Tracking preferences."
+  },
+  "_landing_page": {
+    "platform": "Shopify.com",
+    "category": "Marketing",
+    "description": "Track landing pages."
+  },
+  "_orig_referrer": {
+    "platform": "Shopify.com",
+    "category": "Marketing",
+    "description": "Track landing pages."
+  },
+  "_s": {
+    "platform": "Shopify.com",
+    "category": "Analytics",
+    "description": "Shopify analytics."
+  },
+  "_shopify_fs": {
+    "platform": "Shopify.com",
+    "category": "Analytics",
+    "description": "Shopify analytics."
+  },
+  "_shopify_s": {
+    "platform": "Shopify.com",
+    "category": "Analytics",
+    "description": "Shopify analytics."
+  },
+  "_shopify_sa_p": {
+    "platform": "Shopify.com",
+    "category": "Marketing",
+    "description": "Shopify analytics relating to marketing & referrals."
+  },
+  "_shopify_sa_t": {
+    "platform": "Shopify.com",
+    "category": "Marketing",
+    "description": "Shopify analytics relating to marketing & referrals."
+  },
+  "_shopify_uniq": {
+    "platform": "Shopify.com",
+    "category": "Analytics",
+    "description": "Shopify analytics."
+  },
+  "_shopify_visit": {
+    "platform": "Shopify.com",
+    "category": "Analytics",
+    "description": "Shopify analytics."
+  },
+  "_shopify_y": {
+    "platform": "Shopify.com",
+    "category": "Analytics",
+    "description": "Shopify analytics."
+  },
+  "_y": {
+    "platform": "Shopify.com",
+    "category": "Analytics",
+    "description": "Shopify analytics."
+  },
+  "tracked_start_checkout": {
+    "platform": "Shopify.com",
+    "category": "Analytics",
+    "description": "Shopify analytics relating to checkout."
+  },
+  "ki_r": {
+    "platform": "Shopify.com",
+    "category": "Analytics",
+    "description": "Shopify analytics."
+  },
+  "ki_t": {
+    "platform": "Shopify.com",
+    "category": "Analytics",
+    "description": "Shopify analytics."
+  },
+  "_Brochure_session": {
+    "platform": "Shopify.com",
+    "category": "Analytics",
+    "description": "Used in connection with browsing through site."
+  },
+  "__hs_opt_out": {
+    "platform": "Hubspot.com",
+    "category": "Functional",
+    "description": "This cookie is used by the opt-in privacy policy to remember not to ask the visitor to accept cookies again."
+  },
+  "__hs_do_not_track": {
+    "platform": "Hubspot.com",
+    "category": "Functional",
+    "description": "This cookie can be set to prevent the tracking code from sending any information to HubSpot."
+  },
+  "__hs_initial_opt_in": {
+    "platform": "Hubspot.com",
+    "category": "Functional",
+    "description": "This cookie is used to prevent the banner from always displaying when visitors are browsing in strict mode."
+  },
+  "hs_ab_test": {
+    "platform": "Hubspot.com",
+    "category": "Functional",
+    "description": "This cookie is used to consistently serve visitors the same version of an A/B test page they’ve seen before."
+  },
+  "hs-messages-is-open": {
+    "platform": "Hubspot.com",
+    "category": "Functional",
+    "description": "This cookie is used to determine and save whether the chat widget is open for future visits."
+  },
+  "hs-messages-hide-welcome-message": {
+    "platform": "Hubspot.com",
+    "category": "Functional",
+    "description": "This cookie is used to prevent the chat widget welcome message from appearing again for one day after it is dismissed."
+  },
+  "__hsmem": {
+    "platform": "Hubspot.com",
+    "category": "Functional",
+    "description": "This cookie is set when visitors log in to a HubSpot-hosted site."
+  },
+  "hs-membership-csrf": {
+    "platform": "Hubspot.com",
+    "category": "Functional",
+    "description": "This cookie is used to ensure that content membership logins cannot be forged."
+  },
+  "hs_langswitcher_choice": {
+    "platform": "Hubspot.com",
+    "category": "Functional",
+    "description": "This cookie is used to save the visitor's selected language choice when viewing pages in multiple languages."
+  },
+  "__hstc": {
+    "platform": "Hubspot.com",
+    "category": "Marketing",
+    "description": "The main cookie for tracking visitors."
+  },
+  "hubspotutk": {
+    "platform": "Hubspot.com",
+    "category": "Marketing",
+    "description": "This cookie keeps track of a visitor's identity. It is passed to HubSpot on form submission and used when deduplicating contacts."
+  },
+  "__hssc": {
+    "platform": "Hubspot.com",
+    "category": "Marketing",
+    "description": "This cookie keeps track of sessions."
+  },
+  "__hssrc": {
+    "platform": "Hubspot.com",
+    "category": "Marketing",
+    "description": "Whenever HubSpot changes the session cookie, this cookie is also set to determine if the visitor has restarted their browser."
+  },
+  "messagesUtk": {
+    "platform": "Hubspot.com",
+    "category": "Marketing",
+    "description": "This cookie is used to recognize visitors who chat with you via the chatflows tool. If the visitor leaves your site before they're added as a contact, they will have this cookie associated with their browser."
+  },
+  "renderCtx": {
+    "platform": "Salesforce",
+    "category": "Functional",
+    "description": "Used to deliver requested pages and content based on a user's navigation."
+  },
+  "pctrk": {
+    "platform": "Salesforce",
+    "category": "Analytics",
+    "description": "Used to count page views by unauthenticated users against license usage."
+  },
+  "force-stream": {
+    "platform": "Salesforce",
+    "category": "Functional",
+    "description": "Used to properly route server requests within Salesforce infrastructure for sticky sessions."
+  },
+  "sfdc-stream": {
+    "platform": "Salesforce",
+    "category": "Functional",
+    "description": "Used to properly route server requests within Salesforce infrastructure for sticky sessions."
+  },
+  "BrowserId_sec": {
+    "platform": "Salesforce",
+    "category": "Functional",
+    "description": "Used to log secure browser sessions/visits for internal-only product analytics."
+  },
+  "force-proxy-stream": {
+    "platform": "Salesforce",
+    "category": "Functional",
+    "description": "Used to ensure client requests hit the same proxy hosts and are more likely to retrieve content from cache."
+  },
+  "BrowserId": {
+    "platform": "Salesforce",
+    "category": "Functional",
+    "description": "Used to log browser sessions/visits for internal-only product analytics."
+  },
+  "QCQQ": {
+    "platform": "Salesforce",
+    "category": "Functional",
+    "description": "Used to detect the official login page for Forced Login POST detection."
+  },
+  "sid_Client": {
+    "platform": "Salesforce",
+    "category": "Functional",
+    "description": "Used to validate orgid and userid on the client side."
+  },
+  "idccsrf": {
+    "platform": "Salesforce",
+    "category": "Functional",
+    "description": "Used for SSO authentication as CSRF protection."
+  },
+  "rsid": {
+    "platform": "Salesforce",
+    "category": "Functional",
+    "description": "Used for an admin user to 'log in as' one of their org user."
+  },
+  "rsid2": {
+    "platform": "Salesforce",
+    "category": "Functional",
+    "description": "Used for an admin user to 'log in as' one of their org portal user."
+  },
+  "RRetURL": {
+    "platform": "Salesforce",
+    "category": "Functional",
+    "description": "Used for 'log in as' to return to original page."
+  },
+  "RRetURL2": {
+    "platform": "Salesforce",
+    "category": "Functional",
+    "description": "Used for portal 'log in as' to return to original page."
+  },
+  "alohaEpt": {
+    "platform": "Salesforce",
+    "category": "Functional",
+    "description": "Used to log page load EPT (Experience Page Time) for Visualforce (Classic UI) pages."
+  },
+  "clientSrc": {
+    "platform": "Salesforce",
+    "category": "Functional",
+    "description": "Used to validate the IP from where a user logs in."
+  },
+  "oinfo": {
+    "platform": "Salesforce",
+    "category": "Marketing",
+    "description": "Used to track the State, Edition and orgID of a customer's org."
+  },
+  "autocomplete": {
+    "platform": "Salesforce",
+    "category": "Functional",
+    "description": "Used to determine whether the browser remembers a user’s login username."
+  },
+  "inst": {
+    "platform": "Salesforce",
+    "category": "Functional",
+    "description": "Used to optimize routing to the user's instance."
+  },
+  "expid_": {
+    "platform": "Salesforce",
+    "category": "Marketing",
+    "description": "Used to render pages based on specified brand."
+  },
+  "disco": {
+    "platform": "Salesforce",
+    "category": "Marketing",
+    "description": "Used to verify the last Salesforce org that was accessed on the same browser for session discovery."
+  },
+  "oid": {
+    "platform": "Salesforce",
+    "category": "Functional",
+    "description": "Used to redirect a user to the correct Salesforce org and assist the user for the next login."
+  },
+  "vuid": {
+    "platform": "Vimeo",
+    "category": "Analytics",
+    "description": "This first party cookie created by Vimeo is used to assign a Vimeo Analytics unique id."
+  },
+  "Player": {
+    "platform": "Vimeo",
+    "category": "Functional",
+    "description": "This first party cookie created by Vimeo is used to remember user’s player mode preferences."
+  },
+  "continuous_play_v3": {
+    "platform": "Vimeo",
+    "category": "Functional",
+    "description": "Used to keep track of whether continuous play is on or not for a user"
+  },
+  "__stripe_mid": {
+    "platform": "Stripe",
+    "category": "Functional",
+    "description": "Fraud prevention and detection"
+  },
+  "__stripe_sid": {
+    "platform": "Stripe",
+    "category": "Functional",
+    "description": "Fraud prevention and detection"
+  },
+  "m": {
+    "platform": "Stripe",
+    "category": "Functional",
+    "description": "Set by payment provider stripe.com to process payments"
+  },
+  "_gat_pro": {
+    "platform": "Snapwidget",
+    "category": "Functional",
+    "description": "Allows Snapwidget to offer anonymous analytics about how the visitors are using your widgets"
+  },
+  "woocommerce_cart_hash": {
+    "platform": "WooCommerce",
+    "category": "Functional",
+    "description": "Helps WooCommerce determine when cart contents/data changes."
+  },
+  "woocommerce_items_in_cart": {
+    "platform": "WooCommerce",
+    "category": "Functional",
+    "description": "Helps WooCommerce determine when cart contents/data changes."
+  },
+  "wp_woocommerce_session_": {
+    "platform": "WooCommerce",
+    "category": "Functional",
+    "description": "Contains a unique code for each customer so that it knows where to find the cart data in the database for each customer."
+  },
+  "woocommerce_recently_viewed": {
+    "platform": "WooCommerce",
+    "category": "Functional",
+    "description": "Powers the Recent Viewed Products widget"
+  },
+  "edgebucket": {
+    "platform": "Reddit",
+    "category": "Marketing",
+    "description": "Used by Reddit to deliver advertising"
+  },
+  "initref": {
+    "platform": "Reddit",
+    "category": "Marketing",
+    "description": "Used by Reddit to deliver advertising"
+  },
+  "incap_ses_": {
+    "platform": "Imperva",
+    "category": "Functional",
+    "description": "This cookie is set to allow a visitor to receive site content from one out of multiple servers as the visitor browses the site. This allows the visitor's session to be maintained."
+  },
+  "nlbi_": {
+    "platform": "Imperva",
+    "category": "Functional",
+    "description": "Incapsula DDoS Protection and Web Application Firewall: Load balancing cookie. To ensure requests by a client are sent to the same origin server."
+  },
+  "visid_incap_": {
+    "platform": "Imperva",
+    "category": "Functional",
+    "description": "This cookie is from the incapsula CDN and helps us with reliability, security and the performance of our site."
+  },
+  "sp_t": {
+    "platform": "Spotify",
+    "category": "Functional",
+    "description": "Required to ensure the functionality of the integrated Spotify plugin. This does not result in any cross-site functionality."
+  },
+  "sp_landing": {
+    "platform": "Spotify",
+    "category": "Functional",
+    "description": "Required to ensure the functionality of the integrated Spotify plugin. This does not result in any cross-site functionality."
+  },
+  "anj": {
+    "platform": "Xandr",
+    "category": "Marketing",
+    "description": "The anj cookie contains data denoting whether a cookie ID is synced with our partners. ID syncing enables our partners to use their data from outside the Platform on the Platform. "
+  },
+  "uuid2": {
+    "platform": "Xandr",
+    "category": "Marketing",
+    "description": "This cookie contains a unique randomly-generated value that enables the Platform to distinguish browsers and devices."
+  },
+  "cc-": {
+    "platform": "Intershop",
+    "category": "Functional",
+    "description": "References a cart for anonymous users"
+  },
+  "pgid-org-": {
+    "platform": "Intershop",
+    "category": "Functional",
+    "description": "Hash of personalization information. Used to cache pages or snippets for users with same personalization information"
+  },
+  "SecureSessionID-": {
+    "platform": "Intershop",
+    "category": "Functional",
+    "description": "Reference to authenticated user"
+  },
+  "CMSCsrfCookie": {
+    "platform": "Kentico",
+    "category": "Functional",
+    "description": "Store's a security token that the system uses to validate all form data submitted via POST requests. Helps protect against Cross site request forgery."
+  },
+  "CMSCookieLevel": {
+    "platform": "Kentico",
+    "category": "Functional",
+    "description": "Specifies which cookies are allowed by the visitor."
+  },
+  "CMSLandingPageLoaded": {
+    "platform": "Kentico",
+    "category": "Analytics",
+    "description": "Indicates that the landing page has already been visited and the Landing page activity is not logged again for the current visitor. Expires after 20 minutes and the expiration period of the key is renewed every time the website is accessed again."
+  },
+  "CMSPreferredCulture": {
+    "platform": "Kentico",
+    "category": "Functional",
+    "description": "Stores the visitor's preferred content culture."
+  },
+  "CMSUserPage": {
+    "platform": "Kentico",
+    "category": "Analytics",
+    "description": "Stores the IDs (DocumentID, NodeID) of the last visited page. Used for logging landing and exit page web analytics and activities."
+  },
+  "CurrentContact": {
+    "platform": "Kentico",
+    "category": "Analytics",
+    "description": "Stores the GUID of the contact related to the current site visitor. Used to track activities on the website."
+  },
+  "VisitorStatus": {
+    "platform": "Kentico",
+    "category": "Analytics",
+    "description": "Indicates if the visitor is new or returning. Used for tracking the visitors statistic in Web analytics."
+  },
+  "sc_at": {
+    "platform": "Snapchat",
+    "category": "Marketing",
+    "description": "Used to identify a visitor across multiple domains."
+  },
+  "_scid": {
+    "platform": "Snapchat",
+    "category": "Marketing",
+    "description": "Used to help identify a visitor."
+  },
+  "X-AB": {
+    "platform": "sc-static.net",
+    "category": "Functional",
+    "description": "This cookie is used by the website’s operator in context with multi-variate testing. This is a tool used to combine or change content on the website. This allows the website to find the best variation/edition of the site."
+  },
+  "_vwo_uuid_v2": {
+    "platform": "Visual Website Optimizer",
+    "category": "Functional",
+    "description": "Used to track visitor movements anonymously."
+  },
+  "_vis_opt_s": {
+    "platform": "Visual Website Optimizer",
+    "category": "Functional",
+    "description": "This cookie detects if you are new or returning to a particular test."
+  },
+  "_vis_opt_test_cookie": {
+    "platform": "Visual Website Optimizer",
+    "category": "Functional",
+    "description": "This is a temporary session cookie generated to detect if the cookies are enabled on the user browser or not."
+  },
+  "_vis_opt_exp_": {
+    "platform": "Visual Website Optimizer",
+    "category": "Functional",
+    "description": "This cookie is generated when a goal is created."
+  },
+  "zc_consent": {
+    "platform": "ZOHO",
+    "category": "Functional",
+    "description": "Determines whether the user has accepted the cookie consent box."
+  },
+  "ZCAMPAIGN_CSRF_TOKEN": {
+    "platform": "ZOHO",
+    "category": "Functional",
+    "description": "This cookie is used to distinguish between humans and bots."
+  },
+  "zc_show": {
+    "platform": "ZOHO",
+    "category": "Marketing",
+    "description": "Collects data on visitors' preferences and behaviour on the website - This information is used make content and advertisement more relevant to the specific visitor."
+  },
+  "zc_cu_exp": {
+    "platform": "ZOHO",
+    "category": "Functional",
+    "description": "Contains the expiration date for the cookie with its name."
+  },
+  "zc_loc": {
+    "platform": "ZOHO",
+    "category": "Marketing",
+    "description": "Collects information on user preferences and/or interaction with web-campaign content - This is used on CRM-campaign-platform used by website owners for promoting events or products."
+  },
+  "wa_ul": {
+    "platform": "WhatsApp",
+    "category": "Functional",
+    "description": "Used to access the service it provides."
+  },
+  "wa_lang_pref": {
+    "platform": "WhatsApp",
+    "category": "Functional",
+    "description": "Used by WhatsApp to save language preferences"
+  },
+  "pa_rubicon_ts": {
+    "platform": "Perfect Audience",
+    "category": "Marketing",
+    "description": "This cookie is set by Perfect Audience and is used for advertising purposes based on user behavior data."
+  },
+  "pa_google_ts": {
+    "platform": "Perfect Audience",
+    "category": "Marketing",
+    "description": "This cookie is set by Perfect Audience and is used for advertising purposes based on user behavior data."
+  },
+  "pa_twitter_ts": {
+    "platform": "Perfect Audience",
+    "category": "Marketing",
+    "description": "This cookie is set by Perfect Audience and is used for advertising purposes based on user behavior data."
+  },
+  "pa_yahoo_ts": {
+    "platform": "Perfect Audience",
+    "category": "Marketing",
+    "description": "This cookie is set by Perfect Audience and is used for advertising purposes based on user behavior data."
+  },
+  "pa_openx_ts": {
+    "platform": "Perfect Audience",
+    "category": "Marketing",
+    "description": "This cookie is set by Perfect Audience and is used for advertising purposes based on user behavior data."
+  },
+  "pa_uid": {
+    "platform": "Perfect Audience",
+    "category": "Marketing",
+    "description": "This cookie is set by Perfect Audience and is used for advertising purposes based on user behavior data."
+  },
+  "mailmunch_second_pageview": {
+    "platform": "MailMunch",
+    "category": "Marketing",
+    "description": "Used for tracking by the Mailmunch mailing list software"
+  },
+  "_mailmunch_visitor_id": {
+    "platform": "MailMunch",
+    "category": "Marketing",
+    "description": "This cookie is set by MailMunch which is email collection and email marketing platform."
+  },
+  "tk_ai": {
+    "platform": "Jetpack",
+    "category": "Analytics",
+    "description": "Stores a randomly generated, anonymous ID. It is only used in the admin area and is used for general analytics tracking."
+  },
+  "tPHG-PS": {
+    "platform": "Partnerize",
+    "category": "Marketing",
+    "description": "Partnerize’s tracking cookie, deployed either upon a user’s clicking of a link on a partner website, or upon the loading of a customer's image to a partner website."
+  },
+  "digitalAudience": {
+    "platform": "Digital Audience",
+    "category": "Marketing",
+    "description": "Digital Audience uses cookies to improve the effectiveness of digital platforms, thanks to online recognition mechanisms."
+  },
+  "has_js": {
+    "platform": "Drupal CMS",
+    "category": "Functional",
+    "description": "Drupal uses this cookie to indicate whether or not the visitors browser has JavaScript enabled."
+  },
+  "_omappvs": {
+    "platform": "Optinmonster",
+    "category": "Marketing",
+    "description": "Cookie is used to identify returning visitors"
+  },
+  "_omappvp": {
+    "platform": "Optinmonster",
+    "category": "Marketing",
+    "description": "Cookie is used to identify returning visitors"
+  },
+  "_lfa": {
+    "platform": "Leadfeeder",
+    "category": "Marketing",
+    "description": "Leadfeeder cookie collects the behavioral data of all website visitors. This includes; pages viewed, visitor source and time spent on the site"
+  },
+  "SnapABugHistory": {
+    "platform": "SnapEngage",
+    "category": "Marketing",
+    "description": "This cookie is associated with live chat software from SnapEngage. It identifies a visitor to enable a history of engagement to be recorded."
+  },
+  "SnapABugUserAlias": {
+    "platform": "SnapEngage",
+    "category": "Functional",
+    "description": "Stores a unique ID string for each chat-box session. This allows the website-support to see previous issues and reconnect with the previous supporter."
+  },
+  "SnapABugVisit": {
+    "platform": "SnapEngage",
+    "category": "Functional",
+    "description": "This cookie is associated with live chat software from SnapEngage. It identifies a new user session."
+  },
+  "SnapABugRef": {
+    "platform": "SnapEngage",
+    "category": "Marketing",
+    "description": "This cookie is associated with live chat software from SnapEngage. It records the landing page and origin of a visitor."
+  },
+  "audience": {
+    "platform": "SpotX",
+    "category": "Marketing",
+    "description": "Sync audience data between buyers and sellers."
+  },
+  "yith_wcwl_session_": {
+    "platform": "Yithemes.com",
+    "category": "Functional",
+    "description": "YITH WooCommerce Wishlist plugin uses cookies in order to correctly store user wishlists"
+  },
+  "A3": {
+    "platform": "Yahoo",
+    "category": "Marketing",
+    "description": "Ads targeting cookie for Yahoo"
+  },
+  "APID": {
+    "platform": "Yahoo",
+    "category": "Marketing",
+    "description": "Collects information on visitor behaviour on multiple websites. This information is used on the website, in order to optimize the relevance of advertisement."
+  },
+  "APIDTS": {
+    "platform": "Yahoo",
+    "category": "Marketing",
+    "description": "This is a Yahoo! Cookie used in the targeting of relevant adverts and content on the Yahoo! platform."
+  },
+  "IDSYNC": {
+    "platform": "Yahoo",
+    "category": "Marketing",
+    "description": "Identifies if the cookie-data needs to be updated in the visitor's browser - This is determined through third-party ad-serving-companies."
+  },
+  "INGRESSCOOKIE": {
+    "platform": "NGINX Ingresss",
+    "category": "Functional",
+    "description": "Registers which server-cluster is serving the visitor. This is used in context with load balancing, in order to optimize user experience."
+  },
+  "AlteonP": {
+    "platform": "Alteon",
+    "category": "Functional",
+    "description": "This cookie is set by the load balancers and allows us to evenly balance the number of users across the web servers that we use."
+  },
+  "cref": {
+    "platform": "Quantcast",
+    "category": "Marketing",
+    "description": "Contains data on user navigation, interaction and time spent on the website and its sub-pages – This data is used to optimise the relevance of advertisements and for statistical purposes."
+  },
+  "mc": {
+    "platform": "Quantcast",
+    "category": "Marketing",
+    "description": "Tracking of users and measure and improve performance and supports personalisation"
+  },
+  "d": {
+    "platform": "Quantcast",
+    "category": "Marketing",
+    "description": "Tracking of users and measure and improve performance and supports personalisation"
+  },
+  "iutk": {
+    "platform": "Issuu",
+    "category": "Marketing",
+    "description": "Recognises the user's device and what Issuu documents have been read."
+  },
+  "cookielawinfo-checkbox-necessary": {
+    "platform": "WebToffee",
+    "category": "Functional",
+    "description": "This cookie is set by GDPR Cookie Consent plugin. The cookies is used to store the user consent for the cookies in the category 'Necessary'."
+  },
+  "cookielawinfo-checkbox-non-necessary": {
+    "platform": "WebToffee",
+    "category": "Functional",
+    "description": "This cookie is set by GDPR Cookie Consent plugin. The cookies is used to store the user consent for the cookies in the category 'Non Necessary'."
+  },
+  "viewed_cookie_policy": {
+    "platform": "WebToffee",
+    "category": "Functional",
+    "description": "The cookie is set by the GDPR Cookie Consent plugin and is used to store whether or not user has consented to the use of cookies. It does not store any personal data."
+  },
+  "cookielawinfo-checkbox-marketing": {
+    "platform": "WebToffee",
+    "category": "Functional",
+    "description": "This cookie is set by GDPR Cookie Consent plugin. The purpose of this cookie is to check whether or not the user has given the consent to the usage of cookies under the category 'Marketing'."
+  },
+  "cookielawinfo-checkbox-analytics": {
+    "platform": "WebToffee",
+    "category": "Functional",
+    "description": "This cookie is set by GDPR Cookie Consent plugin. The purpose of this cookie is to check whether or not the user has given the consent to the usage of cookies under the category 'Analytics'."
+  },
+  "cookielawinfo-checkbox-performance": {
+    "platform": "WebToffee",
+    "category": "Functional",
+    "description": "This cookie is set by GDPR Cookie Consent plugin. The purpose of this cookie is to check whether or not the user has given the consent to the usage of cookies under the category 'Performance'."
+  },
+  "cookielawinfo-checkbox-others": {
+    "platform": "WebToffee",
+    "category": "Functional",
+    "description": "This cookie is set by GDPR Cookie Consent plugin. The cookie is used to store the user consent for the cookies in the category 'Other'."
+  },
+  "__qca": {
+    "platform": "Quantcast",
+    "category": "Marketing",
+    "description": "This cookie is set by Quantcast, who present targeted advertising. Stores browser and HTTP request information."
+  },
+  "stg_traffic_source_priority": {
+    "platform": "Piwik",
+    "category": "Analytics",
+    "description": "Stores the type of traffic source that explains how the visitor reached your website."
+  },
+  "stg_last_interaction": {
+    "platform": "Piwik",
+    "category": "Analytics",
+    "description": "Determines whether the last visitor's session is still in progress or a new session has started."
+  },
+  "stg_returning_visitor": {
+    "platform": "Piwik",
+    "category": "Analytics",
+    "description": "Determines if the visitor has already been to your website — they are returning visitors."
+  },
+  "stg_externalReferrer": {
+    "platform": "Piwik",
+    "category": "Analytics",
+    "description": "Stores an URL of a website that referred a visitor to your website."
+  },
+  "__sqra": {
+    "platform": "Sooqr",
+    "category": "Functional",
+    "description": "Tracks the user's interaction with the website's search-bar-function. This data can be used to present the user with relevant products or services."
+  },
+  "__sqrb": {
+    "platform": "Sooqr",
+    "category": "Functional",
+    "description": "Tracks the user's interaction with the website's search-bar-function. This data can be used to present the user with relevant products or services."
+  },
+  "__sqrc": {
+    "platform": "Sooqr",
+    "category": "Functional",
+    "description": "Tracks the user's interaction with the website's search-bar-function. This data can be used to present the user with relevant products or services."
+  },
+  "nmstat": {
+    "platform": "Siteimprove",
+    "category": "Analytics",
+    "description": "This cookie is used to help record the visitor's use of the website. It is used to collect statistics about site usage such as when the visitor last visited the site. This information is then used to improve the user experience on the website. This Siteimprove Analytics cookie contains a randomly generated ID used to recognize the browser when a visitor reads a page. The cookie contains no personal information and is used only for web analytics. It is also used to track the sequence of pages a visitor looks at during a visit to the site. This information can be used to reduce user journeys, and enable visitors to find relevant information quicker."
+  },
+  "sp": {
+    "platform": "Snowplow",
+    "category": "Analytics",
+    "description": "Stores a server-side collector generated unique identifier for a user that is sent with all subsequent tracking event events. Can be used as a first party cookie is the collector is on the same domain as the site."
+  },
+  "_sp_id.": {
+    "platform": "Snowplow",
+    "category": "Analytics",
+    "description": "Stores user information that is created when a user first visits a site and updated on subsequent visits. It is used to identify users and track the users activity across a domain. This cookie stores a unique identifier for each user, a unique identifier for the users current session, the number of visits a user has made to the site, the timestamp of the users first visit, the timestamp of their previous visit and the timestamp of their current visit."
+  },
+  "_sp_ses.": {
+    "platform": "Snowplow",
+    "category": "Analytics",
+    "description": "Used to identify if the user is in an active session on a site or if this is a new session for a user (i.e. cookie doesn’t exist or has expired)."
+  },
+  "AUTH_SESSION_ID": {
+    "platform": "Keycloak",
+    "category": "Functional",
+    "description": "ID of current authentication session."
+  },
+  "KC_RESTART": {
+    "platform": "Keycloak",
+    "category": "Functional",
+    "description": "Internal cookie from Keycloak."
+  },
+  "KC_START": {
+    "platform": "Keycloak",
+    "category": "Functional",
+    "description": "Internal cookie from Keycloak."
+  },
+  "KEYCLOAK_IDENTITY": {
+    "platform": "Keycloak",
+    "category": "Functional",
+    "description": "ID of the current user."
+  },
+  "KEYCLOAK_LOCALE": {
+    "platform": "Keycloak",
+    "category": "Functional",
+    "description": "Language of the interface."
+  },
+  "KEYCLOAK_REMEMBER _ME": {
+    "platform": "Keycloak",
+    "category": "Functional",
+    "description": "Internal cookie from Keycloak."
+  },
+  "KEYCLOAK_SESSION": {
+    "platform": "Keycloak",
+    "category": "Functional",
+    "description": "ID of the current browser session"
+  },
+  "_abck": {
+    "platform": "Akamai Botmanager",
+    "category": "Functional",
+    "description": "This cookie is used to analyse traffic to determine if it is automated traffic generated by IT systems or a human user"
+  },
+  "CRAFT_CSRF_TOKEN": {
+    "platform": "CraftCMS",
+    "category": "Functional",
+    "description": "Facilitates protection against cross-site request forgeries. This helps to safeguard data as it is submitted through forms on the website."
+  },
+  "CraftSessionId": {
+    "platform": "CraftCMS",
+    "category": "Functional",
+    "description": "Craft relies on PHP sessions to maintain sessions across web requests. That is done via the PHP session cookie. Craft names that cookie 'CraftSessionId' by default. This cookie will expire as soon as the session expires."
+  },
+  "ci_session": {
+    "platform": "CodeIgniter",
+    "category": "Functional",
+    "description": "Cookie to track the users logged in state and access level to restricted pages."
+  },
+  "__lc_cid": {
+    "platform": "Livechat",
+    "category": "Functional",
+    "description": "Necessary for the functionality of the website's chat-box function."
+  },
+  "__lc_cst": {
+    "platform": "Livechat",
+    "category": "Functional",
+    "description": "Necessary for the functionality of the website's chat-box function."
+  },
+  "__lc2_cid": {
+    "platform": "Livechat",
+    "category": "Functional",
+    "description": "Stores a unique ID string for each chat-box session. This allows the website-support to see previous issues and reconnect with the previous supporter."
+  },
+  "__lc2_cst": {
+    "platform": "Livechat",
+    "category": "Functional",
+    "description": "Stores a unique ID string for each chat-box session. This allows the website-support to see previous issues and reconnect with the previous supporter."
+  },
+  "__livechat": {
+    "platform": "Livechat",
+    "category": "Functional",
+    "description": "Used to hide the user's personal customisation of LiveChat."
+  },
+  "BVBRANDID": {
+    "platform": "Bazaar Voice",
+    "category": "Analytics",
+    "description": "BVBRANDID is a persistent cookie that allows Bazaarvoice to track website analytics data such as how often you visit the site and allocate it to the same website visitor."
+  },
+  "BVBRANDSID": {
+    "platform": "Bazaar Voice",
+    "category": "Analytics",
+    "description": "This cookie allows internal Bazaarvoice web analytics to be correlated to the same user browsing session for interactions within a particular client domain."
+  },
+  "BVID": {
+    "platform": "Bazaar Voice",
+    "category": "Marketing",
+    "description": "Allows internal Bazaarvoice web analytics to be correlated to the same user for interactions across the Bazaarvoice network."
+  },
+  "BVSID": {
+    "platform": "Bazaar Voice",
+    "category": "Marketing",
+    "description": "Allows internal Bazaarvoice web analytics to be correlated to the same user browsing session for interactions across the Bazaarvoice network."
+  },
+  "_li_id": {
+    "platform": "Leadinfo",
+    "category": "Marketing",
+    "description": "These cookies enable us to get insights about the business use of our website, based on IP addresses of the website visitors."
+  },
+  "_li_ses": {
+    "platform": "Leadinfo",
+    "category": "Marketing",
+    "description": "These cookies enable us to get insights about the business use of our website, based on IP addresses of the website visitors."
+  },
+  "CAKEPHP": {
+    "platform": "CakePHP",
+    "category": "Functional",
+    "description": "A cookie controller used to manage other Cookies"
+  },
+  "wp-wpml_current_language": {
+    "platform": "WPML",
+    "category": "Functional",
+    "description": "This cookie is used to track the language preference fo the user"
+  },
+  "_flowbox": {
+    "platform": "Flowbox",
+    "category": "Functional",
+    "description": "Used to differentiate between users and sessions and collecting statistics on the viewing behaviour for Instagram posts displayed on the website."
+  },
+  "acalltracker": {
+    "platform": "Adcalls",
+    "category": "Marketing",
+    "description": "Adcalls call tracking: ID, phone number"
+  },
+  "acalltrackersession": {
+    "platform": "Adcalls",
+    "category": "Functional",
+    "description": "This cookie stores a unique identifier, so that it can be tracked which session the visitor is in."
+  },
+  "acalltrackerreferrer": {
+    "platform": "Adcalls",
+    "category": "Analytics",
+    "description": "This cookie is set as soon as the AdCalls JavaScript is loaded. The cookie is used to store the referrer of the visitor as quickly as possible, so that it cannot be lost. As soon as the JavaScript has been executed, this cookie is immediately deleted."
+  },
+  "excludecalltracking": {
+    "platform": "Adcalls",
+    "category": "Functional",
+    "description": "This cookie is set as soon as the visitor - for whatever reason - is not measured, so that we do not take any further actions."
+  },
+  "acalltrackernumber": {
+    "platform": "Adcalls",
+    "category": "Marketing",
+    "description": "This cookie stores the phone number for the session that is active."
+  },
+  "wordpress_google_apps_login": {
+    "platform": "WP-Glogin",
+    "category": "Functional",
+    "description": "Used for secure log in to the web site with a Google account."
+  },
+  "ckies_functional": {
+    "platform": "Jimdo",
+    "category": "Functional",
+    "description": "Opt-out for functional cookies"
+  },
+  "ckies_necessary": {
+    "platform": "Jimdo",
+    "category": "Functional",
+    "description": "Confirms that other necessary cookies get set"
+  },
+  "ckies_performance": {
+    "platform": "Jimdo",
+    "category": "Functional",
+    "description": "Opt-out for performance cookies"
+  },
+  "ckies_marketing": {
+    "platform": "Jimdo",
+    "category": "Functional",
+    "description": "Opt-out for marketing/third party/consent based cookies"
+  },
+  "ClickAndChange": {
+    "platform": "Jimdo",
+    "category": "Functional",
+    "description": "Session Cookie for Creator CMS"
+  },
+  "pll_language": {
+    "platform": "Polylang",
+    "category": "Functional",
+    "description": "Saves the chosen language."
+  },
+  "browserupdateorg": {
+    "platform": "Browser-Update.org",
+    "category": "Functional",
+    "description": "Stores information if user dismissed notification about outdated browser"
+  },
+  "TawkConnectionTime": {
+    "platform": "Tawk.to Chat",
+    "category": "Functional",
+    "description": "This cookie is used to determine the connection duration of tawk sessions."
+  },
+  "tawkUUID": {
+    "platform": "Tawk.to Chat",
+    "category": "Analytics",
+    "description": "This cookie is used to collect information about how the visitor handles the live chat function on the website."
+  },
+  "TawkCookie": {
+    "platform": "Tawk.to Chat",
+    "category": "Functional",
+    "description": "Main Tawk.to cookie."
+  },
+  "__tawkuuid": {
+    "platform": "Tawk.to Chat",
+    "category": "Functional",
+    "description": "Tawk.to cookie used to distinguish users."
+  },
+  "stx_user_id": {
+    "platform": "Sharetrough",
+    "category": "Marketing",
+    "description": "Delivering targeted and relevant content"
+  },
+  "dc": {
+    "platform": "BetweenDigital",
+    "category": "Marketing",
+    "description": "This cookie is used for advertising purposes"
+  },
+  "sqzl_abs": {
+    "platform": "Squeezely",
+    "category": "Marketing",
+    "description": "A cookie used by Squeezely"
+  },
+  "sqzl_consent": {
+    "platform": "Squeezely",
+    "category": "Functional",
+    "description": "Stores the user's cookie consent state for the current domain"
+  },
+  "sqzl_session_id": {
+    "platform": "Squeezely",
+    "category": "Marketing",
+    "description": "A cookie used by Squeezely"
+  },
+  "sqzl_vw": {
+    "platform": "Squeezely",
+    "category": "Marketing",
+    "description": "A cookie used by Squeezely"
+  },
+  "sqzllocal": {
+    "platform": "Squeezely",
+    "category": "Marketing",
+    "description": "This is a cookie from the service Squeezely. It helps us with registering which pages you have visited and with sending you personalized ads"
+  },
+  "belco-anonymous-id": {
+    "platform": "Belco",
+    "category": "Functional",
+    "description": "This cookie enables you to make use of the chat-function of our customer service-tool, so we can help you anytime."
+  },
+  "belco-cookies": {
+    "platform": "Belco",
+    "category": "Functional",
+    "description": "This cookie enables you to make use of the chat-function of our customer service-tool, so we can help you anytime."
+  },
+  "ABTasty": {
+    "platform": "ABTasty",
+    "category": "Analytics",
+    "description": "This cookie sends all test data (visitorID, test and variant IDs, timestamps)."
+  },
+  "ABTastySession": {
+    "platform": "ABTasty",
+    "category": "Analytics",
+    "description": "This cookie allows us to identify a unique session. It allows us to determine that a new session has begun for a given user."
+  },
+  "BCSessionID": {
+    "platform": "Blueconic.com",
+    "category": "Marketing",
+    "description": "Unique identifier for the BlueConic profile."
+  },
+  "BCTempID": {
+    "platform": "Blueconic.com",
+    "category": "Marketing",
+    "description": "Temporary unique identifier for the BlueConic profile, removed after BCSessionID is created."
+  },
+  "BCPermissionLevel": {
+    "platform": "Blueconic.com",
+    "category": "Functional",
+    "description": "Opt-in level (PERSONAL|ANONYMOUS|DO_NOT_TRACK)"
+  },
+  "BCReferrerOverrule": {
+    "platform": "Blueconic.com",
+    "category": "Marketing",
+    "description": "Stores a custom bcChannelIdentifier as referrer. For these channels the actual referrer points to the website and not the overrule. The overrule would be lost if not stored in this cookie."
+  },
+  "BCRefusedObjectives": {
+    "platform": "Blueconic.com",
+    "category": "Marketing",
+    "description": "Used to store the identifiers of BlueConic Objectives that were explicitly refused."
+  },
+  "BCRevision": {
+    "platform": "Blueconic.com",
+    "category": "Marketing",
+    "description": "Used to store requests that are sent to BlueConic, but haven't returned yet. On the next page view, if BCRevision still contains values, those requests are sent again, to prevent data loss. This information is now stored in localStorage; when this fails, the cookie solution is used as fallback."
+  },
+  "BCTracking": {
+    "platform": "Blueconic.com",
+    "category": "Marketing",
+    "description": "Used for tracking the channel of an external tracker."
+  },
+  "__adal_ca": {
+    "platform": "Adalyser.com",
+    "category": "Marketing",
+    "description": "Stores which advertising campaign drove a user to visit, stores traffic source and campaign data."
+  },
+  "__adal_cw": {
+    "platform": "Adalyser.com",
+    "category": "Marketing",
+    "description": "Ties back conversion events to earlier visits, stores a visit timestamp."
+  },
+  "__adal_id": {
+    "platform": "Adalyser.com",
+    "category": "Marketing",
+    "description": "Uniquely identify a device, stores a generated Device ID."
+  },
+  "__adal_ses": {
+    "platform": "Adalyser.com",
+    "category": "Marketing",
+    "description": "Determines whether there is an active session and which conversions have taken place in this session to prevent duplicates, stores a list of events in this session."
+  },
+  "Pastease.passive.activated": {
+    "platform": "Mopinion.com",
+    "category": "Analytics",
+    "description": "The visitor is selected via this Mopinion cookie and the visitor sees the form."
+  },
+  "Pastease.passive.chance": {
+    "platform": "Mopinion.com",
+    "category": "Analytics",
+    "description": "This Mopinion cookie determines the chance that the visitor will see the form."
+  },
+  "AFFICHE_W": {
+    "platform": "Weborama",
+    "category": "Analytics",
+    "description": "Used by the advertising platform Weborama to determine the visitor’s interests based on pages visits, content clicked and other actions on the website."
+  },
+  "matchadform": {
+    "platform": "Roku",
+    "category": "Marketing",
+    "description": "Presents the user with relevant content and advertisement. The service is provided by third-party advertisement hubs, which facilitate real-time bidding for advertisers."
+  },
+  "wfivefivec": {
+    "platform": "Roku",
+    "category": "Marketing",
+    "description": "Collects data on the user's visits to the website, such as what pages have been loaded. The registered data is used for targeted ads."
+  },
+  "UserID1": {
+    "platform": "Adition",
+    "category": "Marketing",
+    "description": "Cookie sets a unique anonymous ID for a website visitor. This ID is used to recognize the user on different sessions and to track their activities on the website. The data collected is used for analysis purposes."
+  },
+  "arcki2": {
+    "platform": "Audrte",
+    "category": "Marketing",
+    "description": "Collects data on user behaviour and interaction in order to optimize the website and make advertisement on the website more relevant."
+  }
+}

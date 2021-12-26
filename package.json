@@ -2,15 +2,23 @@
   "name": "elterngeld",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node index.ts"
+    "start": "ts-node index.ts",
+    "update:cookies": "ts-node updateCookies.ts"
   },
   "dependencies": {
+    "@types/crypto-js": "^4.0.2",
     "@types/humanize-duration": "^3.27.0",
+    "@types/minimist": "^1.2.2",
+    "@types/os-utils": "^0.0.1",
     "@types/xml2js": "^0.4.9",
+    "crypto-js": "^4.1.1",
+    "csv": "^6.0.4",
     "got": "^11.8.3",
     "humanize-duration": "^3.27.0",
     "luxon": "^2.1.1",
+    "minimist": "^1.2.5",
     "node-notifier": "^9.0.0",
+    "os-utils": "^0.0.14",
     "playwright": "^1.8.0",
     "prettier": "^2.3.2",
     "ts-node": "^10.4.0",
