@@ -13,7 +13,7 @@
     "@types/xml2js": "^0.4.9",
     "crypto-js": "^4.1.1",
     "csv": "^6.0.4",
-    "got": "^11.8.3",
+    "got": "^11.8.5",
     "humanize-duration": "^3.27.0",
     "luxon": "^2.1.1",
     "minimist": "^1.2.5",
