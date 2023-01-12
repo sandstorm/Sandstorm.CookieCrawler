@@ -47,7 +47,8 @@ const crawlerResults: CrawlerResults = {};
     const sitemapJson = await parseStringPromise(sitemapXML.body);
     let urls: string[] = sitemapJson.urlset.url.map( (entry: any) => {
         return entry.loc[0];
-    });
+    // TODO: remove splice
+    }).splice(0,10);
 
     const browser = await chromium.launch({
         headless: HEADLESS,
@@ -61,7 +62,7 @@ const crawlerResults: CrawlerResults = {};
         await console.log(`Finished with Chunk`);
     }
 
-    fs.writeFileSync(`results/${sitemapUrl}.json`, JSON.stringify(crawlerResults, null, 2));
+    fs.writeFileSync(`results/${Date.now()}.json`, JSON.stringify(crawlerResults, null, 2));
     console.log(`FOUND ${Object.keys(crawlerResults).length} items (cookies, local storage entries).`);
 })();
 
@@ -76,6 +77,8 @@ function updateCurrentChunkSize(){
     } else {
         currentChunkSize -= 1;
     }
+
+    if(currentChunkSize > 80) currentChunkSize = 80;
     resetLastCPUUsages();
 }
 
@@ -125,7 +128,10 @@ async function processPage(browser: Browser, url: string) {
 
     // increased timeout, as some pages will take some time to load. This also depends on the time
     // of the day the pages is crawled.
-    await page.goto(url, {timeout: 60000});
+    process3rdPartyUrls(page, url);
+    await page.goto(url);
+    await page.waitForLoadState();
+    await page.waitForLoadState("networkidle");
 
     addCPUUsage(); // adding measurements to later calculate avg
 
@@ -143,8 +149,8 @@ async function processPage(browser: Browser, url: string) {
     await page.waitForLoadState();
     await page.waitForLoadState("networkidle");
 
-    await processCookies(page, pageProcessedAt);
-    await processOrigins(page);
+    //await processCookies(page, pageProcessedAt);
+    //await processOrigins(page);
 
     await console.log(`${url} --> took ${Date.now() - timestamp}ms`);
     addCPUUsage(); // adding measurements to later calculate avg
@@ -153,9 +159,8 @@ async function processPage(browser: Browser, url: string) {
 
 async function processCookies(page: Page, processedAt: number) {
     const storageState = await page.context().storageState();
-
     storageState.cookies.forEach((cookie) => {
-        const key = generateKeyForResult("cookie", cookie.domain, cookie.name);
+        const key = generateKeyForResult("cookie", cookie.domain + cookie.name);
         if(!crawlerResults[key]) {
             // expiresTimestamp timestamp in milliseconds
             // we let the crawler figure out when a cookie expires
@@ -181,6 +186,28 @@ async function processCookies(page: Page, processedAt: number) {
     })
 }
 
+function process3rdPartyUrls(page: Page, url: string) {
+    const pageHostname = (new URL(url)).origin;
+    page.on('request', (request) => {
+        const requestUrlObject = new URL(request.url());
+        if(requestUrlObject.origin !== pageHostname) {
+            const key = generateKeyForResult("3rdPartyUrl",  `${requestUrlObject.origin}${requestUrlObject.pathname}`);
+            if(!crawlerResults[key]) {
+                crawlerResults[key] = {
+                    type: "3rdPartyUrl",
+                    origin: requestUrlObject.origin,
+                    href: requestUrlObject.href,
+                    count: 1,
+                    urls: [page.url()],
+                }
+            } else {
+                crawlerResults[key].count += 1;
+                crawlerResults[key].urls.push(page.url());
+            }
+        }
+    });
+}
+
 // we currently support `localStorage`
 async function processOrigins(page: Page) {
     const storageState = await page.context().storageState();
@@ -192,7 +219,7 @@ async function processOrigins(page: Page) {
         // we should probably also crawl for sessionStorage entries, etc. if we want to get
         // all data that was persisted in the browser.
         origin.localStorage.forEach(localStorageEntry => {
-            const key = generateKeyForResult("localStorage", originName, localStorageEntry.name);
+            const key = generateKeyForResult("localStorage", originName + localStorageEntry.name);
             if(!crawlerResults[key]) {
                 crawlerResults[key] = {
                     type: "localStorage",
@@ -214,8 +241,8 @@ async function processOrigins(page: Page) {
 // of the crawling but will get cookies over and over again. With the key we can decide
 // if we have already seen a cookie.
 // We will has a sting like this -> "cookiehttp://example.org_gat"
-function generateKeyForResult(type: CrawlerResultType, origin: string, key: string) {
-    return MD5(type + origin + key).toString();
+function generateKeyForResult(type: CrawlerResultType, text: string) {
+    return MD5(type + text).toString();
 }
 
 // expiresTimestamp timestamp in milliseconds

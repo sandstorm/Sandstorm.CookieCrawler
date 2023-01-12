@@ -8,7 +8,7 @@ export type CookieNameDetails = {
 	[cookieName: string]: CookieNameDetail
 }
 
-export type CrawlerResultType = "cookie"|"localStorage";
+export type CrawlerResultType = "cookie"|"localStorage" | "3rdPartyUrl";
 
 export type CrawlerCookieResult = {
 	type: "cookie",
@@ -22,6 +22,15 @@ export type CrawlerCookieResult = {
 	translations: {[lang: string]: CookieNameDetail} | null
 }
 
+
+export type Crawler3rdPartyResult = {
+	type: "3rdPartyUrl",
+	origin: string,
+	href: string,
+	count: number,
+	urls: string[],
+}
+
 export type CrawlerLocalStorageResult = {
 	type: "localStorage",
 	name: string,
@@ -32,5 +41,5 @@ export type CrawlerLocalStorageResult = {
 }
 
 export type CrawlerResults = {
-	[key: string]: CrawlerCookieResult | CrawlerLocalStorageResult
+	[key: string]: CrawlerCookieResult | CrawlerLocalStorageResult | Crawler3rdPartyResult
 }
